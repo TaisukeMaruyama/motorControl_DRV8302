@@ -11,6 +11,7 @@
 #include "GlogalVariables.h"
 #include "GeneralFunctions.h"
 #include "VectorControl.h"
+#include "ControlFunctions.h"
 
 static float sIab[2];
 static float sIdq[2];
@@ -39,9 +40,9 @@ void VectorControlTasks(float *Idq_ref, float theta, float electAngVelo, float *
 	if ( flgFB == 0 ){
 		Vq_ref_open = Vdc * SQRT3DIV2_DIV2 * gPropoDuty;
 			OpenLoopTasks(Vq_ref_open, theta, Iuvw, twoDivVdc, Duty, outputMode);
-			sVdq[0] = 0.0f;
+sVdq[0] = 0.0f;
 			sVdq[1] = Vq_ref_open;
-			sVdq_i[0] = 0.0f;
+						sVdq_i[0] = 0.0f;
 			sVdq_i[1] = 0.0f;
 		}
 	else{
@@ -136,6 +137,31 @@ static void dq2ab(float theta, float* dq, float* ab){
 }
 
 static void Vuvw2Duty(float twoDivVdc, float* Vuvw, float* Duty){
+
+	float max;
+	float min;
+	float vo;
+
+	// third-harmonic injection
+	max = Vuvw[0];
+	if(Vuvw[1] > max)
+		max = Vuvw[1];
+	if(Vuvw[2] > max)
+		max = Vuvw[2];
+
+	min = Vuvw[0];
+	if(Vuvw[1] < min)
+		min = Vuvw[1];
+	if(Vuvw[2] < min)
+		min = Vuvw[2];
+
+	vo = (max + min) * 0.5f;
+
+	Vuvw[0] = Vuvw[0] - vo;
+	Vuvw[1] = Vuvw[1] - vo;
+	Vuvw[2] = Vuvw[2] - vo;
+
+
 	Duty[0] = (Vuvw[0] * twoDivVdc);
 	Duty[1] = (Vuvw[1] * twoDivVdc);
 	Duty[2] = -Duty[0] - Duty[1];
@@ -181,7 +207,7 @@ static void CurrentFbControl(float* Igd_ref, float* Igd, float electAngVelo, flo
 
 	*Vamp = calcAmpFromVect(Vgd);
 
-	VampLimit = Vdc * SQRT3DIV2_DIV2;
+	VampLimit = Vdc * SQRT3DIV2_DIV2 * 1.15f;
 	if( *Vamp > VampLimit ){
 		Vgd[0] = VampLimit * cosf(Vphase);
 		sVdq_i[0] = Vgd[0];
