@@ -164,7 +164,7 @@ static void Vuvw2Duty(float twoDivVdc, float* Vuvw, float* Duty){
 
 	Duty[0] = (Vuvw[0] * twoDivVdc);
 	Duty[1] = (Vuvw[1] * twoDivVdc);
-	Duty[2] = -Duty[0] - Duty[1];
+	Duty[2] = (Vuvw[2] * twoDivVdc);
 
 	Duty[0] = gUpperLowerLimit(Duty[0], DUTYUPPER, DUTYLOWER);
 	Duty[1] = gUpperLowerLimit(Duty[1], DUTYUPPER, DUTYLOWER);
