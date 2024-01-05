@@ -288,13 +288,13 @@ void ADC1_2_IRQHandler(void)
 		leadAngleModeFlg = 0;
 		flgFB = 0;
 	}
-	else if (gElectFreq < 100.0f){
+	else if (gElectFreq < 10.0f){
 		gPosMode = POSMODE_HALL;
 		gDrvMode = DRVMODE_OPENLOOP;
 		leadAngleModeFlg = 0;
 		flgFB = 0;
 	}
-	else if(gElectFreq < 200.0f){
+	else if(gElectFreq < 20.0f){
 		gPosMode = POSMODE_HALL_PLL;
 		gDrvMode = DRVMODE_OPENLOOP;
 		leadAngleModeFlg = 1;
@@ -328,7 +328,6 @@ void ADC1_2_IRQHandler(void)
 		//write IO signals
 		//gTheta = gTheta + 100.0f * CARRIERCYCLE;
 		//gTheta = gfWrapTheta(gTheta);
-
 		VectorControlTasks(Idq_ref, gTheta, gElectAngVelo, gIuvw, gVdc, gTwoDivVdc, flgFB, gDuty, outputMode);
 		//OpenLoopTasks(1.5f, gTheta, gIuvw, gTwoDivVdc, gDuty, outputMode);
 	}

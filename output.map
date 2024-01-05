@@ -75,7 +75,7 @@ c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../li
 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-msizer.o)
                               c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-reallocr.o) (_malloc_usable_size_r)
 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_addsubdf3.o)
-                              c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-strtod.o) (__aeabi_dsub)
+                              .pio\build\nucleo_g474re\src\main.o (__aeabi_dsub)
 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_muldivdf3.o)
                               .pio\build\nucleo_g474re\src\main.o (__aeabi_dmul)
 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_arm_cmpdf2.o)
@@ -360,7 +360,7 @@ Discarded input sections
                 0x00000000       0x78 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_comp.o
  .debug_ranges  0x00000000       0x68 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_comp.o
  .debug_line    0x00000000      0x627 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_comp.o
- .debug_str     0x00000000      0x955 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_comp.o
+ .debug_str     0x00000000      0x964 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_comp.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_comp.o
  .debug_frame   0x00000000      0x118 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_comp.o
  .ARM.attributes
@@ -413,7 +413,7 @@ Discarded input sections
                 0x00000000       0xb0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_cordic.o
  .debug_ranges  0x00000000       0xa0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_cordic.o
  .debug_line    0x00000000      0x60d .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_cordic.o
- .debug_str     0x00000000      0xaa2 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_cordic.o
+ .debug_str     0x00000000      0xab1 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_cordic.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_cordic.o
  .debug_frame   0x00000000      0x1d0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_cordic.o
  .ARM.attributes
@@ -477,7 +477,7 @@ Discarded input sections
                 0x00000000       0x60 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_crc.o
  .debug_ranges  0x00000000       0x50 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_crc.o
  .debug_line    0x00000000      0x4c7 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_crc.o
- .debug_str     0x00000000      0x694 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_crc.o
+ .debug_str     0x00000000      0x6a3 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_crc.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_crc.o
  .debug_frame   0x00000000      0x108 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_crc.o
  .ARM.attributes
@@ -498,7 +498,7 @@ Discarded input sections
                 0x00000000       0x30 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_crc_ex.o
  .debug_ranges  0x00000000       0x20 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_crc_ex.o
  .debug_line    0x00000000      0x388 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_crc_ex.o
- .debug_str     0x00000000      0x64e .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_crc_ex.o
+ .debug_str     0x00000000      0x65d .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_crc_ex.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_crc_ex.o
  .debug_frame   0x00000000       0x50 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_crc_ex.o
  .ARM.attributes
@@ -511,7 +511,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_cryp.o
  .debug_line    0x00000000      0x292 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_cryp.o
- .debug_str     0x00000000      0x42a .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_cryp.o
+ .debug_str     0x00000000      0x439 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_cryp.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_cryp.o
  .ARM.attributes
                 0x00000000       0x39 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_cryp.o
@@ -523,7 +523,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_cryp_ex.o
  .debug_line    0x00000000      0x292 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_cryp_ex.o
- .debug_str     0x00000000      0x42d .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_cryp_ex.o
+ .debug_str     0x00000000      0x43c .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_cryp_ex.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_cryp_ex.o
  .ARM.attributes
                 0x00000000       0x39 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_cryp_ex.o
@@ -616,7 +616,7 @@ Discarded input sections
                 0x00000000       0xc0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_dac_ex.o
  .debug_ranges  0x00000000       0xb0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_dac_ex.o
  .debug_line    0x00000000      0x6b0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_dac_ex.o
- .debug_str     0x00000000      0xc8a .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_dac_ex.o
+ .debug_str     0x00000000      0xc99 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_dac_ex.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_dac_ex.o
  .debug_frame   0x00000000      0x254 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_dac_ex.o
  .ARM.attributes
@@ -662,7 +662,7 @@ Discarded input sections
                 0x00000000       0x40 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_dma_ex.o
  .debug_ranges  0x00000000       0x48 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_dma_ex.o
  .debug_line    0x00000000      0x464 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_dma_ex.o
- .debug_str     0x00000000      0x89e .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_dma_ex.o
+ .debug_str     0x00000000      0x8ad .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_dma_ex.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_dma_ex.o
  .debug_frame   0x00000000       0x84 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_dma_ex.o
  .ARM.attributes
@@ -695,7 +695,7 @@ Discarded input sections
                 0x00000000       0x60 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_exti.o
  .debug_ranges  0x00000000       0x50 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_exti.o
  .debug_line    0x00000000      0x49f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_exti.o
- .debug_str     0x00000000      0x69a .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_exti.o
+ .debug_str     0x00000000      0x6a9 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_exti.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_exti.o
  .debug_frame   0x00000000       0xf4 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_exti.o
  .ARM.attributes
@@ -836,7 +836,7 @@ Discarded input sections
                 0x00000000      0x208 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_fdcan.o
  .debug_ranges  0x00000000      0x1f8 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_fdcan.o
  .debug_line    0x00000000      0xb9c .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_fdcan.o
- .debug_str     0x00000000     0x1423 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_fdcan.o
+ .debug_str     0x00000000     0x1432 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_fdcan.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_fdcan.o
  .debug_frame   0x00000000      0x4cc .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_fdcan.o
  .ARM.attributes
@@ -880,7 +880,7 @@ Discarded input sections
                 0x00000000       0x88 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_flash.o
  .debug_ranges  0x00000000       0x78 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_flash.o
  .debug_line    0x00000000      0x54d .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_flash.o
- .debug_str     0x00000000      0x739 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_flash.o
+ .debug_str     0x00000000      0x748 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_flash.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_flash.o
  .debug_frame   0x00000000      0x144 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_flash.o
  .ARM.attributes
@@ -939,7 +939,7 @@ Discarded input sections
                 0x00000000       0xc8 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_flash_ex.o
  .debug_ranges  0x00000000       0xb8 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_flash_ex.o
  .debug_line    0x00000000      0x6b9 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_flash_ex.o
- .debug_str     0x00000000      0x8a7 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_flash_ex.o
+ .debug_str     0x00000000      0x8b6 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_flash_ex.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_flash_ex.o
  .debug_frame   0x00000000      0x1f0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_flash_ex.o
  .ARM.attributes
@@ -955,7 +955,7 @@ Discarded input sections
                 0x00000000       0x30 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_flash_ramfunc.o
  .debug_ranges  0x00000000       0x20 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_flash_ramfunc.o
  .debug_line    0x00000000      0x387 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_flash_ramfunc.o
- .debug_str     0x00000000      0x57a .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_flash_ramfunc.o
+ .debug_str     0x00000000      0x589 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_flash_ramfunc.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_flash_ramfunc.o
  .debug_frame   0x00000000       0x40 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_flash_ramfunc.o
  .ARM.attributes
@@ -1054,7 +1054,7 @@ Discarded input sections
                 0x00000000      0x168 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_fmac.o
  .debug_ranges  0x00000000      0x158 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_fmac.o
  .debug_line    0x00000000      0x993 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_fmac.o
- .debug_str     0x00000000      0xe82 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_fmac.o
+ .debug_str     0x00000000      0xe91 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_fmac.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_fmac.o
  .debug_frame   0x00000000      0x410 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_fmac.o
  .ARM.attributes
@@ -1368,7 +1368,7 @@ Discarded input sections
                 0x00000000      0x4a0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_hrtim.o
  .debug_ranges  0x00000000      0x490 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_hrtim.o
  .debug_line    0x00000000     0x29df .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_hrtim.o
- .debug_str     0x00000000     0x2761 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_hrtim.o
+ .debug_str     0x00000000     0x2770 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_hrtim.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_hrtim.o
  .debug_frame   0x00000000      0xec8 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_hrtim.o
  .ARM.attributes
@@ -1541,7 +1541,7 @@ Discarded input sections
                 0x00000000      0x290 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_i2c.o
  .debug_ranges  0x00000000      0x280 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_i2c.o
  .debug_line    0x00000000     0x17f8 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_i2c.o
- .debug_str     0x00000000     0x128b .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_i2c.o
+ .debug_str     0x00000000     0x129a .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_i2c.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_i2c.o
  .debug_frame   0x00000000      0x928 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_i2c.o
  .ARM.attributes
@@ -1568,7 +1568,7 @@ Discarded input sections
                 0x00000000       0x48 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_i2c_ex.o
  .debug_ranges  0x00000000       0x38 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_i2c_ex.o
  .debug_line    0x00000000      0x48c .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_i2c_ex.o
- .debug_str     0x00000000      0xc06 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_i2c_ex.o
+ .debug_str     0x00000000      0xc15 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_i2c_ex.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_i2c_ex.o
  .debug_frame   0x00000000       0x80 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_i2c_ex.o
  .ARM.attributes
@@ -1641,7 +1641,7 @@ Discarded input sections
                 0x00000000      0x100 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_i2s.o
  .debug_ranges  0x00000000       0xf0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_i2s.o
  .debug_line    0x00000000      0x885 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_i2s.o
- .debug_str     0x00000000      0xb76 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_i2s.o
+ .debug_str     0x00000000      0xb85 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_i2s.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_i2s.o
  .debug_frame   0x00000000      0x304 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_i2s.o
  .ARM.attributes
@@ -1754,7 +1754,7 @@ Discarded input sections
                 0x00000000      0x198 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_irda.o
  .debug_ranges  0x00000000      0x188 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_irda.o
  .debug_line    0x00000000      0xbc6 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_irda.o
- .debug_str     0x00000000      0xf68 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_irda.o
+ .debug_str     0x00000000      0xf77 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_irda.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_irda.o
  .debug_frame   0x00000000      0x440 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_irda.o
  .ARM.attributes
@@ -1773,7 +1773,7 @@ Discarded input sections
                 0x00000000       0x28 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_iwdg.o
  .debug_ranges  0x00000000       0x18 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_iwdg.o
  .debug_line    0x00000000      0x36b .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_iwdg.o
- .debug_str     0x00000000      0x4f9 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_iwdg.o
+ .debug_str     0x00000000      0x508 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_iwdg.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_iwdg.o
  .debug_frame   0x00000000       0x44 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_iwdg.o
  .ARM.attributes
@@ -1872,7 +1872,7 @@ Discarded input sections
                 0x00000000      0x168 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_lptim.o
  .debug_ranges  0x00000000      0x158 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_lptim.o
  .debug_line    0x00000000      0x853 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_lptim.o
- .debug_str     0x00000000      0xc34 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_lptim.o
+ .debug_str     0x00000000      0xc43 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_lptim.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_lptim.o
  .debug_frame   0x00000000      0x3f0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_lptim.o
  .ARM.attributes
@@ -1935,7 +1935,7 @@ Discarded input sections
                 0x00000000       0xd8 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_nand.o
  .debug_ranges  0x00000000       0xc8 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_nand.o
  .debug_line    0x00000000     0x1105 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_nand.o
- .debug_str     0x00000000      0xaa5 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_nand.o
+ .debug_str     0x00000000      0xab4 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_nand.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_nand.o
  .debug_frame   0x00000000      0x284 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_nand.o
  .ARM.attributes
@@ -1988,7 +1988,7 @@ Discarded input sections
                 0x00000000       0xa8 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_nor.o
  .debug_ranges  0x00000000       0x98 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_nor.o
  .debug_line    0x00000000      0xd2b .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_nor.o
- .debug_str     0x00000000      0xad7 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_nor.o
+ .debug_str     0x00000000      0xae6 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_nor.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_nor.o
  .debug_frame   0x00000000      0x224 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_nor.o
  .ARM.attributes
@@ -2025,7 +2025,7 @@ Discarded input sections
                 0x00000000       0x70 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_opamp.o
  .debug_ranges  0x00000000       0x60 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_opamp.o
  .debug_line    0x00000000      0x523 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_opamp.o
- .debug_str     0x00000000      0x902 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_opamp.o
+ .debug_str     0x00000000      0x911 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_opamp.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_opamp.o
  .debug_frame   0x00000000      0x134 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_opamp.o
  .ARM.attributes
@@ -2042,7 +2042,7 @@ Discarded input sections
                 0x00000000       0x20 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_opamp_ex.o
  .debug_ranges  0x00000000       0x10 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_opamp_ex.o
  .debug_line    0x00000000      0x49b .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_opamp_ex.o
- .debug_str     0x00000000      0x753 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_opamp_ex.o
+ .debug_str     0x00000000      0x762 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_opamp_ex.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_opamp_ex.o
  .debug_frame   0x00000000       0x64 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_opamp_ex.o
  .ARM.attributes
@@ -2127,7 +2127,7 @@ Discarded input sections
                 0x00000000      0x130 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_pcd.o
  .debug_ranges  0x00000000      0x200 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_pcd.o
  .debug_line    0x00000000      0x9c1 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_pcd.o
- .debug_str     0x00000000      0xcbb .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_pcd.o
+ .debug_str     0x00000000      0xcca .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_pcd.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_pcd.o
  .debug_frame   0x00000000      0x33c .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_pcd.o
  .ARM.attributes
@@ -2158,7 +2158,7 @@ Discarded input sections
                 0x00000000       0x58 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_pcd_ex.o
  .debug_ranges  0x00000000       0x48 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_pcd_ex.o
  .debug_line    0x00000000      0x40c .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_pcd_ex.o
- .debug_str     0x00000000      0x997 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_pcd_ex.o
+ .debug_str     0x00000000      0x9a6 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_pcd_ex.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_pcd_ex.o
  .debug_frame   0x00000000       0xa8 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_pcd_ex.o
  .ARM.attributes
@@ -2205,7 +2205,7 @@ Discarded input sections
                 0x00000000       0x98 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_pwr.o
  .debug_ranges  0x00000000       0x88 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_pwr.o
  .debug_line    0x00000000      0x489 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_pwr.o
- .debug_str     0x00000000      0x8f8 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_pwr.o
+ .debug_str     0x00000000      0x907 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_pwr.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_pwr.o
  .debug_frame   0x00000000      0x120 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_pwr.o
  .ARM.attributes
@@ -2377,7 +2377,7 @@ Discarded input sections
                 0x00000000      0x168 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_qspi.o
  .debug_ranges  0x00000000      0x158 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_qspi.o
  .debug_line    0x00000000      0xa1b .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_qspi.o
- .debug_str     0x00000000      0xe6e .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_qspi.o
+ .debug_str     0x00000000      0xe7d .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_qspi.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_qspi.o
  .debug_frame   0x00000000      0x418 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_qspi.o
  .ARM.attributes
@@ -2476,7 +2476,7 @@ Discarded input sections
                 0x00000000       0x78 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_rng.o
  .debug_ranges  0x00000000       0x68 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_rng.o
  .debug_line    0x00000000      0x487 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_rng.o
- .debug_str     0x00000000      0x67d .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_rng.o
+ .debug_str     0x00000000      0x68c .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_rng.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_rng.o
  .debug_frame   0x00000000      0x104 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_rng.o
  .ARM.attributes
@@ -2543,7 +2543,7 @@ Discarded input sections
                 0x00000000       0xe8 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_rtc.o
  .debug_ranges  0x00000000       0xd8 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_rtc.o
  .debug_line    0x00000000      0x772 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_rtc.o
- .debug_str     0x00000000      0xac7 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_rtc.o
+ .debug_str     0x00000000      0xad6 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_rtc.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_rtc.o
  .debug_frame   0x00000000      0x270 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_rtc.o
  .ARM.attributes
@@ -2646,7 +2646,7 @@ Discarded input sections
                 0x00000000      0x178 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_rtc_ex.o
  .debug_ranges  0x00000000      0x168 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_rtc_ex.o
  .debug_line    0x00000000      0xa92 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_rtc_ex.o
- .debug_str     0x00000000      0xefe .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_rtc_ex.o
+ .debug_str     0x00000000      0xf0d .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_rtc_ex.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_rtc_ex.o
  .debug_frame   0x00000000      0x3f8 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_rtc_ex.o
  .ARM.attributes
@@ -2749,7 +2749,7 @@ Discarded input sections
                 0x00000000      0x178 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_sai.o
  .debug_ranges  0x00000000      0x1c8 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_sai.o
  .debug_line    0x00000000      0xc28 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_sai.o
- .debug_str     0x00000000      0xea8 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_sai.o
+ .debug_str     0x00000000      0xeb7 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_sai.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_sai.o
  .debug_frame   0x00000000      0x418 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_sai.o
  .ARM.attributes
@@ -2766,7 +2766,7 @@ Discarded input sections
                 0x00000000       0x20 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_sai_ex.o
  .debug_ranges  0x00000000       0x10 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_sai_ex.o
  .debug_line    0x00000000      0x39b .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_sai_ex.o
- .debug_str     0x00000000      0xa96 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_sai_ex.o
+ .debug_str     0x00000000      0xaa5 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_sai_ex.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_sai_ex.o
  .debug_frame   0x00000000       0x2c .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_sai_ex.o
  .ARM.attributes
@@ -2871,7 +2871,7 @@ Discarded input sections
                 0x00000000      0x178 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_smartcard.o
  .debug_ranges  0x00000000      0x168 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_smartcard.o
  .debug_line    0x00000000      0xc16 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_smartcard.o
- .debug_str     0x00000000     0x11da .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_smartcard.o
+ .debug_str     0x00000000     0x11e9 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_smartcard.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_smartcard.o
  .debug_frame   0x00000000      0x420 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_smartcard.o
  .ARM.attributes
@@ -2912,7 +2912,7 @@ Discarded input sections
                 0x00000000       0x70 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_smartcard_ex.o
  .debug_ranges  0x00000000       0x60 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_smartcard_ex.o
  .debug_line    0x00000000      0x557 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_smartcard_ex.o
- .debug_str     0x00000000      0xb7c .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_smartcard_ex.o
+ .debug_str     0x00000000      0xb8b .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_smartcard_ex.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_smartcard_ex.o
  .debug_frame   0x00000000       0xf0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_smartcard_ex.o
  .ARM.attributes
@@ -2997,7 +2997,7 @@ Discarded input sections
                 0x00000000      0x130 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_smbus.o
  .debug_ranges  0x00000000      0x120 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_smbus.o
  .debug_line    0x00000000      0xacb .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_smbus.o
- .debug_str     0x00000000      0xa2a .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_smbus.o
+ .debug_str     0x00000000      0xa39 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_smbus.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_smbus.o
  .debug_frame   0x00000000      0x3b0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_smbus.o
  .ARM.attributes
@@ -3016,7 +3016,7 @@ Discarded input sections
                 0x00000000       0x28 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_smbus_ex.o
  .debug_ranges  0x00000000       0x18 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_smbus_ex.o
  .debug_line    0x00000000      0x340 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_smbus_ex.o
- .debug_str     0x00000000      0x60c .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_smbus_ex.o
+ .debug_str     0x00000000      0x61b .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_smbus_ex.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_smbus_ex.o
  .debug_frame   0x00000000       0x40 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_smbus_ex.o
  .ARM.attributes
@@ -3151,7 +3151,7 @@ Discarded input sections
                 0x00000000      0x1f8 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_spi.o
  .debug_ranges  0x00000000      0x1e8 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_spi.o
  .debug_line    0x00000000     0x1055 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_spi.o
- .debug_str     0x00000000      0xf3e .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_spi.o
+ .debug_str     0x00000000      0xf4d .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_spi.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_spi.o
  .debug_frame   0x00000000      0x660 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_spi.o
  .ARM.attributes
@@ -3168,7 +3168,7 @@ Discarded input sections
                 0x00000000       0x20 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_spi_ex.o
  .debug_ranges  0x00000000       0x10 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_spi_ex.o
  .debug_line    0x00000000      0x362 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_spi_ex.o
- .debug_str     0x00000000      0x926 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_spi_ex.o
+ .debug_str     0x00000000      0x935 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_spi_ex.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_spi_ex.o
  .debug_frame   0x00000000       0x2c .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_spi_ex.o
  .ARM.attributes
@@ -3223,7 +3223,7 @@ Discarded input sections
                 0x00000000       0xb8 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_sram.o
  .debug_ranges  0x00000000       0xa8 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_sram.o
  .debug_line    0x00000000      0x6ed .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_sram.o
- .debug_str     0x00000000      0xc61 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_sram.o
+ .debug_str     0x00000000      0xc70 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_sram.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_sram.o
  .debug_frame   0x00000000      0x214 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_sram.o
  .ARM.attributes
@@ -3796,7 +3796,7 @@ Discarded input sections
                 0x00000000      0x1a0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_usart.o
  .debug_ranges  0x00000000      0x190 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_usart.o
  .debug_line    0x00000000     0x1184 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_usart.o
- .debug_str     0x00000000     0x1153 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_usart.o
+ .debug_str     0x00000000     0x1162 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_usart.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_usart.o
  .debug_frame   0x00000000      0x490 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_usart.o
  .ARM.attributes
@@ -3835,7 +3835,7 @@ Discarded input sections
                 0x00000000       0x68 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_usart_ex.o
  .debug_ranges  0x00000000       0x58 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_usart_ex.o
  .debug_line    0x00000000      0x5d8 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_usart_ex.o
- .debug_str     0x00000000      0xab7 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_usart_ex.o
+ .debug_str     0x00000000      0xac6 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_usart_ex.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_usart_ex.o
  .debug_frame   0x00000000      0x120 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_usart_ex.o
  .ARM.attributes
@@ -3860,7 +3860,7 @@ Discarded input sections
                 0x00000000       0x40 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_wwdg.o
  .debug_ranges  0x00000000       0x30 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_wwdg.o
  .debug_line    0x00000000      0x3aa .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_wwdg.o
- .debug_str     0x00000000      0x52f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_wwdg.o
+ .debug_str     0x00000000      0x53e .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_wwdg.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_wwdg.o
  .debug_frame   0x00000000       0x74 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_wwdg.o
  .ARM.attributes
@@ -3869,7 +3869,7 @@ Discarded input sections
  .data          0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_adc.o
  .bss           0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_adc.o
  .debug_line    0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_adc.o
- .debug_str     0x00000000      0x152 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_adc.o
+ .debug_str     0x00000000      0x161 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_adc.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_adc.o
  .ARM.attributes
                 0x00000000       0x39 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_adc.o
@@ -3877,7 +3877,7 @@ Discarded input sections
  .data          0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_comp.o
  .bss           0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_comp.o
  .debug_line    0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_comp.o
- .debug_str     0x00000000      0x153 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_comp.o
+ .debug_str     0x00000000      0x162 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_comp.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_comp.o
  .ARM.attributes
                 0x00000000       0x39 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_comp.o
@@ -3885,7 +3885,7 @@ Discarded input sections
  .data          0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_cordic.o
  .bss           0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_cordic.o
  .debug_line    0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_cordic.o
- .debug_str     0x00000000      0x155 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_cordic.o
+ .debug_str     0x00000000      0x164 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_cordic.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_cordic.o
  .ARM.attributes
                 0x00000000       0x39 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_cordic.o
@@ -3893,7 +3893,7 @@ Discarded input sections
  .data          0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_crc.o
  .bss           0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_crc.o
  .debug_line    0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_crc.o
- .debug_str     0x00000000      0x152 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_crc.o
+ .debug_str     0x00000000      0x161 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_crc.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_crc.o
  .ARM.attributes
                 0x00000000       0x39 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_crc.o
@@ -3901,7 +3901,7 @@ Discarded input sections
  .data          0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_crs.o
  .bss           0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_crs.o
  .debug_line    0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_crs.o
- .debug_str     0x00000000      0x152 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_crs.o
+ .debug_str     0x00000000      0x161 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_crs.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_crs.o
  .ARM.attributes
                 0x00000000       0x39 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_crs.o
@@ -3909,7 +3909,7 @@ Discarded input sections
  .data          0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_dac.o
  .bss           0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_dac.o
  .debug_line    0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_dac.o
- .debug_str     0x00000000      0x152 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_dac.o
+ .debug_str     0x00000000      0x161 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_dac.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_dac.o
  .ARM.attributes
                 0x00000000       0x39 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_dac.o
@@ -3917,7 +3917,7 @@ Discarded input sections
  .data          0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_dma.o
  .bss           0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_dma.o
  .debug_line    0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_dma.o
- .debug_str     0x00000000      0x152 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_dma.o
+ .debug_str     0x00000000      0x161 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_dma.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_dma.o
  .ARM.attributes
                 0x00000000       0x39 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_dma.o
@@ -3925,7 +3925,7 @@ Discarded input sections
  .data          0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_exti.o
  .bss           0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_exti.o
  .debug_line    0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_exti.o
- .debug_str     0x00000000      0x153 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_exti.o
+ .debug_str     0x00000000      0x162 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_exti.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_exti.o
  .ARM.attributes
                 0x00000000       0x39 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_exti.o
@@ -3933,7 +3933,7 @@ Discarded input sections
  .data          0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_fmac.o
  .bss           0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_fmac.o
  .debug_line    0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_fmac.o
- .debug_str     0x00000000      0x153 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_fmac.o
+ .debug_str     0x00000000      0x162 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_fmac.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_fmac.o
  .ARM.attributes
                 0x00000000       0x39 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_fmac.o
@@ -3973,7 +3973,7 @@ Discarded input sections
                 0x00000000       0x80 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_fmc.o
  .debug_ranges  0x00000000       0x70 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_fmc.o
  .debug_line    0x00000000      0x4b9 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_fmc.o
- .debug_str     0x00000000      0x8dc .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_fmc.o
+ .debug_str     0x00000000      0x8eb .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_fmc.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_fmc.o
  .debug_frame   0x00000000      0x130 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_fmc.o
  .ARM.attributes
@@ -3982,7 +3982,7 @@ Discarded input sections
  .data          0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_gpio.o
  .bss           0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_gpio.o
  .debug_line    0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_gpio.o
- .debug_str     0x00000000      0x153 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_gpio.o
+ .debug_str     0x00000000      0x162 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_gpio.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_gpio.o
  .ARM.attributes
                 0x00000000       0x39 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_gpio.o
@@ -3990,7 +3990,7 @@ Discarded input sections
  .data          0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_hrtim.o
  .bss           0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_hrtim.o
  .debug_line    0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_hrtim.o
- .debug_str     0x00000000      0x154 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_hrtim.o
+ .debug_str     0x00000000      0x163 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_hrtim.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_hrtim.o
  .ARM.attributes
                 0x00000000       0x39 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_hrtim.o
@@ -3998,7 +3998,7 @@ Discarded input sections
  .data          0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_i2c.o
  .bss           0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_i2c.o
  .debug_line    0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_i2c.o
- .debug_str     0x00000000      0x152 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_i2c.o
+ .debug_str     0x00000000      0x161 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_i2c.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_i2c.o
  .ARM.attributes
                 0x00000000       0x39 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_i2c.o
@@ -4006,7 +4006,7 @@ Discarded input sections
  .data          0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_lptim.o
  .bss           0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_lptim.o
  .debug_line    0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_lptim.o
- .debug_str     0x00000000      0x154 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_lptim.o
+ .debug_str     0x00000000      0x163 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_lptim.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_lptim.o
  .ARM.attributes
                 0x00000000       0x39 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_lptim.o
@@ -4014,7 +4014,7 @@ Discarded input sections
  .data          0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_lpuart.o
  .bss           0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_lpuart.o
  .debug_line    0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_lpuart.o
- .debug_str     0x00000000      0x155 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_lpuart.o
+ .debug_str     0x00000000      0x164 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_lpuart.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_lpuart.o
  .ARM.attributes
                 0x00000000       0x39 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_lpuart.o
@@ -4022,7 +4022,7 @@ Discarded input sections
  .data          0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_opamp.o
  .bss           0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_opamp.o
  .debug_line    0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_opamp.o
- .debug_str     0x00000000      0x154 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_opamp.o
+ .debug_str     0x00000000      0x163 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_opamp.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_opamp.o
  .ARM.attributes
                 0x00000000       0x39 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_opamp.o
@@ -4030,7 +4030,7 @@ Discarded input sections
  .data          0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_pwr.o
  .bss           0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_pwr.o
  .debug_line    0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_pwr.o
- .debug_str     0x00000000      0x152 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_pwr.o
+ .debug_str     0x00000000      0x161 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_pwr.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_pwr.o
  .ARM.attributes
                 0x00000000       0x39 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_pwr.o
@@ -4038,7 +4038,7 @@ Discarded input sections
  .data          0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_rcc.o
  .bss           0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_rcc.o
  .debug_line    0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_rcc.o
- .debug_str     0x00000000      0x152 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_rcc.o
+ .debug_str     0x00000000      0x161 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_rcc.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_rcc.o
  .ARM.attributes
                 0x00000000       0x39 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_rcc.o
@@ -4046,7 +4046,7 @@ Discarded input sections
  .data          0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_rng.o
  .bss           0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_rng.o
  .debug_line    0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_rng.o
- .debug_str     0x00000000      0x152 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_rng.o
+ .debug_str     0x00000000      0x161 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_rng.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_rng.o
  .ARM.attributes
                 0x00000000       0x39 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_rng.o
@@ -4054,7 +4054,7 @@ Discarded input sections
  .data          0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_rtc.o
  .bss           0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_rtc.o
  .debug_line    0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_rtc.o
- .debug_str     0x00000000      0x152 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_rtc.o
+ .debug_str     0x00000000      0x161 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_rtc.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_rtc.o
  .ARM.attributes
                 0x00000000       0x39 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_rtc.o
@@ -4062,7 +4062,7 @@ Discarded input sections
  .data          0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_spi.o
  .bss           0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_spi.o
  .debug_line    0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_spi.o
- .debug_str     0x00000000      0x152 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_spi.o
+ .debug_str     0x00000000      0x161 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_spi.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_spi.o
  .ARM.attributes
                 0x00000000       0x39 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_spi.o
@@ -4070,7 +4070,7 @@ Discarded input sections
  .data          0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_tim.o
  .bss           0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_tim.o
  .debug_line    0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_tim.o
- .debug_str     0x00000000      0x152 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_tim.o
+ .debug_str     0x00000000      0x161 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_tim.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_tim.o
  .ARM.attributes
                 0x00000000       0x39 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_tim.o
@@ -4078,7 +4078,7 @@ Discarded input sections
  .data          0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_ucpd.o
  .bss           0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_ucpd.o
  .debug_line    0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_ucpd.o
- .debug_str     0x00000000      0x153 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_ucpd.o
+ .debug_str     0x00000000      0x162 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_ucpd.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_ucpd.o
  .ARM.attributes
                 0x00000000       0x39 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_ucpd.o
@@ -4086,7 +4086,7 @@ Discarded input sections
  .data          0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_usart.o
  .bss           0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_usart.o
  .debug_line    0x00000000        0x0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_usart.o
- .debug_str     0x00000000      0x154 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_usart.o
+ .debug_str     0x00000000      0x163 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_usart.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_usart.o
  .ARM.attributes
                 0x00000000       0x39 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_usart.o
@@ -4138,7 +4138,7 @@ Discarded input sections
                 0x00000000       0xb0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_usb.o
  .debug_ranges  0x00000000      0x360 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_usb.o
  .debug_line    0x00000000      0x92a .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_usb.o
- .debug_str     0x00000000      0x89f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_usb.o
+ .debug_str     0x00000000      0x8ae .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_usb.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_usb.o
  .debug_frame   0x00000000      0x19c .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_usb.o
  .ARM.attributes
@@ -4171,7 +4171,7 @@ Discarded input sections
                 0x00000000       0x60 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_utils.o
  .debug_ranges  0x00000000       0x50 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_utils.o
  .debug_line    0x00000000      0x5ac .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_utils.o
- .debug_str     0x00000000      0xa43 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_utils.o
+ .debug_str     0x00000000      0xa52 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_utils.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_utils.o
  .debug_frame   0x00000000       0xd4 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_ll_utils.o
  .ARM.attributes
@@ -4257,7 +4257,7 @@ Discarded input sections
                 0x00000000       0xa8 .pio\build\nucleo_g474re\src\syscalls.o
  .debug_ranges  0x00000000       0x98 .pio\build\nucleo_g474re\src\syscalls.o
  .debug_line    0x00000000      0x3b2 .pio\build\nucleo_g474re\src\syscalls.o
- .debug_str     0x00000000      0x7f9 .pio\build\nucleo_g474re\src\syscalls.o
+ .debug_str     0x00000000      0x808 .pio\build\nucleo_g474re\src\syscalls.o
  .comment       0x00000000       0x7f .pio\build\nucleo_g474re\src\syscalls.o
  .debug_frame   0x00000000      0x190 .pio\build\nucleo_g474re\src\syscalls.o
  .ARM.attributes
@@ -4681,7 +4681,7 @@ LOAD c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/
                 0x08000000                g_pfnVectors
                 0x080001d8                . = ALIGN (0x4)
 
-.text           0x080001e0     0xbd00
+.text           0x080001e0     0xbe20
                 0x080001e0                . = ALIGN (0x4)
  *(.text)
  .text          0x080001e0       0x40 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
@@ -5105,574 +5105,574 @@ LOAD c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/
                 0x08005a74      0x290 .pio\build\nucleo_g474re\src\SixsStep.o
                 0x08005a74                calcElectAngle
  .text.OpenLoopTasks
-                0x08005d04      0x1b8 .pio\build\nucleo_g474re\src\VectorControl.o
+                0x08005d04      0x220 .pio\build\nucleo_g474re\src\VectorControl.o
                 0x08005d04                OpenLoopTasks
  .text.VectorControlTasks
-                0x08005ebc      0x318 .pio\build\nucleo_g474re\src\VectorControl.o
-                0x08005ebc                VectorControlTasks
+                0x08005f24      0x38c .pio\build\nucleo_g474re\src\VectorControl.o
+                0x08005f24                VectorControlTasks
  .text.MX_ADC1_Init
-                0x080061d4      0x150 .pio\build\nucleo_g474re\src\adc.o
-                0x080061d4                MX_ADC1_Init
+                0x080062b0      0x150 .pio\build\nucleo_g474re\src\adc.o
+                0x080062b0                MX_ADC1_Init
  .text.HAL_ADC_MspInit
-                0x08006324      0x11c .pio\build\nucleo_g474re\src\adc.o
-                0x08006324                HAL_ADC_MspInit
+                0x08006400      0x11c .pio\build\nucleo_g474re\src\adc.o
+                0x08006400                HAL_ADC_MspInit
  .text.MX_DAC1_Init
-                0x08006440       0x5c .pio\build\nucleo_g474re\src\dac.o
-                0x08006440                MX_DAC1_Init
+                0x0800651c       0x5c .pio\build\nucleo_g474re\src\dac.o
+                0x0800651c                MX_DAC1_Init
  .text.HAL_DAC_MspInit
-                0x0800649c       0xa4 .pio\build\nucleo_g474re\src\dac.o
-                0x0800649c                HAL_DAC_MspInit
+                0x08006578       0xa4 .pio\build\nucleo_g474re\src\dac.o
+                0x08006578                HAL_DAC_MspInit
  .text.MX_DMA_Init
-                0x08006540       0x54 .pio\build\nucleo_g474re\src\dma.o
-                0x08006540                MX_DMA_Init
+                0x0800661c       0x54 .pio\build\nucleo_g474re\src\dma.o
+                0x0800661c                MX_DMA_Init
  .text.MX_GPIO_Init
-                0x08006594       0xd4 .pio\build\nucleo_g474re\src\gpio.o
-                0x08006594                MX_GPIO_Init
+                0x08006670       0xd4 .pio\build\nucleo_g474re\src\gpio.o
+                0x08006670                MX_GPIO_Init
+ *fill*         0x08006744        0x4 
  .text.HAL_TIM_IC_CaptureCallback
-                0x08006668       0xbc .pio\build\nucleo_g474re\src\main.o
-                0x08006668                HAL_TIM_IC_CaptureCallback
+                0x08006748       0xbc .pio\build\nucleo_g474re\src\main.o
+                0x08006748                HAL_TIM_IC_CaptureCallback
  .text.Error_Handler
-                0x08006724        0x4 .pio\build\nucleo_g474re\src\main.o
-                0x08006724                Error_Handler
+                0x08006804        0x4 .pio\build\nucleo_g474re\src\main.o
+                0x08006804                Error_Handler
  .text.SystemClock_Config
-                0x08006728       0x70 .pio\build\nucleo_g474re\src\main.o
-                0x08006728                SystemClock_Config
- .text.main     0x08006798      0x150 .pio\build\nucleo_g474re\src\main.o
-                0x08006798                main
+                0x08006808       0x70 .pio\build\nucleo_g474re\src\main.o
+                0x08006808                SystemClock_Config
+ .text.main     0x08006878      0x150 .pio\build\nucleo_g474re\src\main.o
+                0x08006878                main
  .text.HAL_MspInit
-                0x080068e8       0x38 .pio\build\nucleo_g474re\src\stm32g4xx_hal_msp.o
-                0x080068e8                HAL_MspInit
+                0x080069c8       0x38 .pio\build\nucleo_g474re\src\stm32g4xx_hal_msp.o
+                0x080069c8                HAL_MspInit
  .text.NMI_Handler
-                0x08006920        0x2 .pio\build\nucleo_g474re\src\stm32g4xx_it.o
-                0x08006920                NMI_Handler
+                0x08006a00        0x2 .pio\build\nucleo_g474re\src\stm32g4xx_it.o
+                0x08006a00                NMI_Handler
  .text.HardFault_Handler
-                0x08006922        0x2 .pio\build\nucleo_g474re\src\stm32g4xx_it.o
-                0x08006922                HardFault_Handler
+                0x08006a02        0x2 .pio\build\nucleo_g474re\src\stm32g4xx_it.o
+                0x08006a02                HardFault_Handler
  .text.MemManage_Handler
-                0x08006924        0x2 .pio\build\nucleo_g474re\src\stm32g4xx_it.o
-                0x08006924                MemManage_Handler
+                0x08006a04        0x2 .pio\build\nucleo_g474re\src\stm32g4xx_it.o
+                0x08006a04                MemManage_Handler
  .text.BusFault_Handler
-                0x08006926        0x2 .pio\build\nucleo_g474re\src\stm32g4xx_it.o
-                0x08006926                BusFault_Handler
+                0x08006a06        0x2 .pio\build\nucleo_g474re\src\stm32g4xx_it.o
+                0x08006a06                BusFault_Handler
  .text.UsageFault_Handler
-                0x08006928        0x2 .pio\build\nucleo_g474re\src\stm32g4xx_it.o
-                0x08006928                UsageFault_Handler
+                0x08006a08        0x2 .pio\build\nucleo_g474re\src\stm32g4xx_it.o
+                0x08006a08                UsageFault_Handler
  .text.SVC_Handler
-                0x0800692a        0x2 .pio\build\nucleo_g474re\src\stm32g4xx_it.o
-                0x0800692a                SVC_Handler
+                0x08006a0a        0x2 .pio\build\nucleo_g474re\src\stm32g4xx_it.o
+                0x08006a0a                SVC_Handler
  .text.DebugMon_Handler
-                0x0800692c        0x2 .pio\build\nucleo_g474re\src\stm32g4xx_it.o
-                0x0800692c                DebugMon_Handler
+                0x08006a0c        0x2 .pio\build\nucleo_g474re\src\stm32g4xx_it.o
+                0x08006a0c                DebugMon_Handler
  .text.PendSV_Handler
-                0x0800692e        0x2 .pio\build\nucleo_g474re\src\stm32g4xx_it.o
-                0x0800692e                PendSV_Handler
+                0x08006a0e        0x2 .pio\build\nucleo_g474re\src\stm32g4xx_it.o
+                0x08006a0e                PendSV_Handler
  .text.SysTick_Handler
-                0x08006930        0x8 .pio\build\nucleo_g474re\src\stm32g4xx_it.o
-                0x08006930                SysTick_Handler
+                0x08006a10        0x8 .pio\build\nucleo_g474re\src\stm32g4xx_it.o
+                0x08006a10                SysTick_Handler
  .text.DMA1_Channel1_IRQHandler
-                0x08006938       0x10 .pio\build\nucleo_g474re\src\stm32g4xx_it.o
-                0x08006938                DMA1_Channel1_IRQHandler
+                0x08006a18       0x10 .pio\build\nucleo_g474re\src\stm32g4xx_it.o
+                0x08006a18                DMA1_Channel1_IRQHandler
  .text.DMA1_Channel2_IRQHandler
-                0x08006948       0x10 .pio\build\nucleo_g474re\src\stm32g4xx_it.o
-                0x08006948                DMA1_Channel2_IRQHandler
+                0x08006a28       0x10 .pio\build\nucleo_g474re\src\stm32g4xx_it.o
+                0x08006a28                DMA1_Channel2_IRQHandler
  .text.ADC1_2_IRQHandler
-                0x08006958      0x194 .pio\build\nucleo_g474re\src\stm32g4xx_it.o
-                0x08006958                ADC1_2_IRQHandler
+                0x08006a38      0x18c .pio\build\nucleo_g474re\src\stm32g4xx_it.o
+                0x08006a38                ADC1_2_IRQHandler
  .text.TIM3_IRQHandler
-                0x08006aec       0x10 .pio\build\nucleo_g474re\src\stm32g4xx_it.o
-                0x08006aec                TIM3_IRQHandler
+                0x08006bc4       0x10 .pio\build\nucleo_g474re\src\stm32g4xx_it.o
+                0x08006bc4                TIM3_IRQHandler
  .text.EXTI15_10_IRQHandler
-                0x08006afc        0xc .pio\build\nucleo_g474re\src\stm32g4xx_it.o
-                0x08006afc                EXTI15_10_IRQHandler
- .text._sbrk    0x08006b08       0x48 .pio\build\nucleo_g474re\src\sysmem.o
-                0x08006b08                _sbrk
+                0x08006bd4        0xc .pio\build\nucleo_g474re\src\stm32g4xx_it.o
+                0x08006bd4                EXTI15_10_IRQHandler
+ .text._sbrk    0x08006be0       0x48 .pio\build\nucleo_g474re\src\sysmem.o
+                0x08006be0                _sbrk
  .text.SystemInit
-                0x08006b50       0x14 .pio\build\nucleo_g474re\src\system_stm32g4xx.o
-                0x08006b50                SystemInit
+                0x08006c28       0x14 .pio\build\nucleo_g474re\src\system_stm32g4xx.o
+                0x08006c28                SystemInit
  .text.MX_TIM2_Init
-                0x08006b64       0x98 .pio\build\nucleo_g474re\src\tim.o
-                0x08006b64                MX_TIM2_Init
+                0x08006c3c       0x98 .pio\build\nucleo_g474re\src\tim.o
+                0x08006c3c                MX_TIM2_Init
  .text.MX_TIM3_Init
-                0x08006bfc       0xa8 .pio\build\nucleo_g474re\src\tim.o
-                0x08006bfc                MX_TIM3_Init
+                0x08006cd4       0xa8 .pio\build\nucleo_g474re\src\tim.o
+                0x08006cd4                MX_TIM3_Init
  .text.MX_TIM7_Init
-                0x08006ca4       0x50 .pio\build\nucleo_g474re\src\tim.o
-                0x08006ca4                MX_TIM7_Init
+                0x08006d7c       0x50 .pio\build\nucleo_g474re\src\tim.o
+                0x08006d7c                MX_TIM7_Init
  .text.HAL_TIM_PWM_MspInit
-                0x08006cf4       0x2c .pio\build\nucleo_g474re\src\tim.o
-                0x08006cf4                HAL_TIM_PWM_MspInit
+                0x08006dcc       0x2c .pio\build\nucleo_g474re\src\tim.o
+                0x08006dcc                HAL_TIM_PWM_MspInit
  .text.HAL_TIM_IC_MspInit
-                0x08006d20       0x8c .pio\build\nucleo_g474re\src\tim.o
-                0x08006d20                HAL_TIM_IC_MspInit
+                0x08006df8       0x8c .pio\build\nucleo_g474re\src\tim.o
+                0x08006df8                HAL_TIM_IC_MspInit
  .text.HAL_TIM_Base_MspInit
-                0x08006dac       0x94 .pio\build\nucleo_g474re\src\tim.o
-                0x08006dac                HAL_TIM_Base_MspInit
+                0x08006e84       0x94 .pio\build\nucleo_g474re\src\tim.o
+                0x08006e84                HAL_TIM_Base_MspInit
  .text.HAL_TIM_MspPostInit
-                0x08006e40       0x7c .pio\build\nucleo_g474re\src\tim.o
-                0x08006e40                HAL_TIM_MspPostInit
+                0x08006f18       0xc4 .pio\build\nucleo_g474re\src\tim.o
+                0x08006f18                HAL_TIM_MspPostInit
  .text.MX_TIM1_Init
-                0x08006ebc      0x110 .pio\build\nucleo_g474re\src\tim.o
-                0x08006ebc                MX_TIM1_Init
+                0x08006fdc      0x114 .pio\build\nucleo_g474re\src\tim.o
+                0x08006fdc                MX_TIM1_Init
  .text.MX_LPUART1_UART_Init
-                0x08006fcc       0x68 .pio\build\nucleo_g474re\src\usart.o
-                0x08006fcc                MX_LPUART1_UART_Init
+                0x080070f0       0x68 .pio\build\nucleo_g474re\src\usart.o
+                0x080070f0                MX_LPUART1_UART_Init
  .text.HAL_UART_MspInit
-                0x08007034       0x84 .pio\build\nucleo_g474re\src\usart.o
-                0x08007034                HAL_UART_MspInit
- .text.__errno  0x080070b8        0xc c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-errno.o)
-                0x080070b8                __errno
+                0x08007158       0x84 .pio\build\nucleo_g474re\src\usart.o
+                0x08007158                HAL_UART_MspInit
+ .text.__errno  0x080071dc        0xc c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-errno.o)
+                0x080071dc                __errno
  .text.__libc_init_array
-                0x080070c4       0x48 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-init.o)
-                0x080070c4                __libc_init_array
- .text.memset   0x0800710c       0x10 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-memset.o)
-                0x0800710c                memset
- .text.__cvt    0x0800711c       0xc2 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-vfprintf_float.o)
-                0x0800711c                __cvt
+                0x080071e8       0x48 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-init.o)
+                0x080071e8                __libc_init_array
+ .text.memset   0x08007230       0x10 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-memset.o)
+                0x08007230                memset
+ .text.__cvt    0x08007240       0xc2 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-vfprintf_float.o)
+                0x08007240                __cvt
  .text.__exponent
-                0x080071de       0x66 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-vfprintf_float.o)
-                0x080071de                __exponent
+                0x08007302       0x66 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-vfprintf_float.o)
+                0x08007302                __exponent
  .text._printf_float
-                0x08007244      0x480 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-vfprintf_float.o)
-                0x08007244                _printf_float
+                0x08007368      0x480 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-vfprintf_float.o)
+                0x08007368                _printf_float
  .text._printf_common
-                0x080076c4       0xea c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x080076c4                _printf_common
- *fill*         0x080077ae        0x2 
+                0x080077e8       0xea c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x080077e8                _printf_common
+ *fill*         0x080078d2        0x2 
  .text._printf_i
-                0x080077b0      0x224 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x080077b0                _printf_i
+                0x080078d4      0x224 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x080078d4                _printf_i
  .text._scanf_float
-                0x080079d4      0x3c4 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-vfscanf_float.o)
-                0x080079d4                _scanf_float
- .text.nanf     0x08007d98        0xc c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-sf_nan.o)
-                0x08007d98                nanf
- .text.sprintf  0x08007da4       0x40 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-sprintf.o)
-                0x08007da4                siprintf
-                0x08007da4                sprintf
+                0x08007af8      0x3c4 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-vfscanf_float.o)
+                0x08007af8                _scanf_float
+ .text.nanf     0x08007ebc        0xc c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-sf_nan.o)
+                0x08007ebc                nanf
+ .text.sprintf  0x08007ec8       0x40 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-sprintf.o)
+                0x08007ec8                siprintf
+                0x08007ec8                sprintf
  .text.unlikely.sulp
-                0x08007de4       0x38 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-strtod.o)
- *fill*         0x08007e1c        0x4 
+                0x08007f08       0x38 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-strtod.o)
  .text._strtod_l
-                0x08007e20      0xbe8 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-strtod.o)
-                0x08007e20                _strtod_l
+                0x08007f40      0xbe8 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-strtod.o)
+                0x08007f40                _strtod_l
  .text._strtod_r
-                0x08008a08       0x20 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-strtod.o)
-                0x08008a08                _strtod_r
+                0x08008b28       0x20 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-strtod.o)
+                0x08008b28                _strtod_r
  .text._strtol_l.isra.0
-                0x08008a28       0xf6 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-strtol.o)
- *fill*         0x08008b1e        0x2 
+                0x08008b48       0xf6 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-strtol.o)
+ *fill*         0x08008c3e        0x2 
  .text._strtol_r
-                0x08008b20       0x24 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-strtol.o)
-                0x08008b20                _strtol_r
- .text.quorem   0x08008b44      0x118 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-dtoa.o)
- *fill*         0x08008c5c        0x4 
- .text._dtoa_r  0x08008c60      0xb70 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-dtoa.o)
-                0x08008c60                _dtoa_r
- .text.rshift   0x080097d0       0x74 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-gdtoa-gethex.o)
+                0x08008c40       0x24 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-strtol.o)
+                0x08008c40                _strtol_r
+ .text.quorem   0x08008c64      0x118 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-dtoa.o)
+ *fill*         0x08008d7c        0x4 
+ .text._dtoa_r  0x08008d80      0xb70 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-dtoa.o)
+                0x08008d80                _dtoa_r
+ .text.rshift   0x080098f0       0x74 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-gdtoa-gethex.o)
  .text.__hexdig_fun
-                0x08009844       0x2a c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-gdtoa-gethex.o)
-                0x08009844                __hexdig_fun
+                0x08009964       0x2a c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-gdtoa-gethex.o)
+                0x08009964                __hexdig_fun
  .text.__gethex
-                0x0800986e      0x442 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-gdtoa-gethex.o)
-                0x0800986e                __gethex
- .text.L_shift  0x08009cb0       0x24 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-gdtoa-hexnan.o)
- .text.__match  0x08009cd4       0x28 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-gdtoa-hexnan.o)
-                0x08009cd4                __match
+                0x0800998e      0x442 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-gdtoa-gethex.o)
+                0x0800998e                __gethex
+ .text.L_shift  0x08009dd0       0x24 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-gdtoa-hexnan.o)
+ .text.__match  0x08009df4       0x28 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-gdtoa-hexnan.o)
+                0x08009df4                __match
  .text.__hexnan
-                0x08009cfc      0x120 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-gdtoa-hexnan.o)
-                0x08009cfc                __hexnan
+                0x08009e1c      0x120 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-gdtoa-hexnan.o)
+                0x08009e1c                __hexnan
  .text.__locale_ctype_ptr_l
-                0x08009e1c        0x6 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-locale.o)
-                0x08009e1c                __locale_ctype_ptr_l
+                0x08009f3c        0x6 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-locale.o)
+                0x08009f3c                __locale_ctype_ptr_l
  .text.__localeconv_l
-                0x08009e22        0x4 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-localeconv.o)
-                0x08009e22                __localeconv_l
- *fill*         0x08009e26        0x2 
+                0x08009f42        0x4 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-localeconv.o)
+                0x08009f42                __localeconv_l
+ *fill*         0x08009f46        0x2 
  .text._localeconv_r
-                0x08009e28       0x1c c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-localeconv.o)
-                0x08009e28                _localeconv_r
- .text.malloc   0x08009e44       0x10 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-malloc.o)
-                0x08009e44                malloc
+                0x08009f48       0x1c c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-localeconv.o)
+                0x08009f48                _localeconv_r
+ .text.malloc   0x08009f64       0x10 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-malloc.o)
+                0x08009f64                malloc
  .text.__ascii_mbtowc
-                0x08009e54       0x24 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mbtowc_r.o)
-                0x08009e54                __ascii_mbtowc
- .text.memcpy   0x08009e78       0x16 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-memcpy-stub.o)
-                0x08009e78                memcpy
- .text._Balloc  0x08009e8e       0x68 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
-                0x08009e8e                _Balloc
- .text._Bfree   0x08009ef6       0x2e c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
-                0x08009ef6                _Bfree
+                0x08009f74       0x24 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mbtowc_r.o)
+                0x08009f74                __ascii_mbtowc
+ .text.memcpy   0x08009f98       0x16 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-memcpy-stub.o)
+                0x08009f98                memcpy
+ .text._Balloc  0x08009fae       0x68 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
+                0x08009fae                _Balloc
+ .text._Bfree   0x0800a016       0x2e c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
+                0x0800a016                _Bfree
  .text.__multadd
-                0x08009f24       0x76 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
-                0x08009f24                __multadd
- .text.__s2b    0x08009f9a       0x7c c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
-                0x08009f9a                __s2b
+                0x0800a044       0x76 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
+                0x0800a044                __multadd
+ .text.__s2b    0x0800a0ba       0x7c c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
+                0x0800a0ba                __s2b
  .text.__hi0bits
-                0x0800a016       0x3e c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
-                0x0800a016                __hi0bits
+                0x0800a136       0x3e c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
+                0x0800a136                __hi0bits
  .text.__lo0bits
-                0x0800a054       0x5e c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
-                0x0800a054                __lo0bits
- .text.__i2b    0x0800a0b2       0x12 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
-                0x0800a0b2                __i2b
+                0x0800a174       0x5e c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
+                0x0800a174                __lo0bits
+ .text.__i2b    0x0800a1d2       0x12 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
+                0x0800a1d2                __i2b
  .text.__multiply
-                0x0800a0c4      0x12c c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
-                0x0800a0c4                __multiply
+                0x0800a1e4      0x12c c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
+                0x0800a1e4                __multiply
  .text.__pow5mult
-                0x0800a1f0       0x9c c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
-                0x0800a1f0                __pow5mult
+                0x0800a310       0x9c c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
+                0x0800a310                __pow5mult
  .text.__lshift
-                0x0800a28c       0xa8 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
-                0x0800a28c                __lshift
- .text.__mcmp   0x0800a334       0x34 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
-                0x0800a334                __mcmp
- .text.__mdiff  0x0800a368       0xba c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
-                0x0800a368                __mdiff
- *fill*         0x0800a422        0x2 
- .text.__ulp    0x0800a424       0x50 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
-                0x0800a424                __ulp
- .text.__b2d    0x0800a474       0x9c c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
-                0x0800a474                __b2d
- .text.__d2b    0x0800a510       0x9e c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
-                0x0800a510                __d2b
- .text.__ratio  0x0800a5ae       0x66 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
-                0x0800a5ae                __ratio
+                0x0800a3ac       0xa8 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
+                0x0800a3ac                __lshift
+ .text.__mcmp   0x0800a454       0x34 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
+                0x0800a454                __mcmp
+ .text.__mdiff  0x0800a488       0xba c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
+                0x0800a488                __mdiff
+ *fill*         0x0800a542        0x2 
+ .text.__ulp    0x0800a544       0x50 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
+                0x0800a544                __ulp
+ .text.__b2d    0x0800a594       0x9c c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
+                0x0800a594                __b2d
+ .text.__d2b    0x0800a630       0x9e c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
+                0x0800a630                __d2b
+ .text.__ratio  0x0800a6ce       0x66 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
+                0x0800a6ce                __ratio
  .text.__copybits
-                0x0800a614       0x34 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
-                0x0800a614                __copybits
+                0x0800a734       0x34 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
+                0x0800a734                __copybits
  .text.__any_on
-                0x0800a648       0x42 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
-                0x0800a648                __any_on
+                0x0800a768       0x42 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
+                0x0800a768                __any_on
  .text._calloc_r
-                0x0800a68a       0x1c c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-callocr.o)
-                0x0800a68a                _calloc_r
- *fill*         0x0800a6a6        0x2 
- .text._free_r  0x0800a6a8       0x9c c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-freer.o)
-                0x0800a6a8                _free_r
+                0x0800a7aa       0x1c c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-callocr.o)
+                0x0800a7aa                _calloc_r
+ *fill*         0x0800a7c6        0x2 
+ .text._free_r  0x0800a7c8       0x9c c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-freer.o)
+                0x0800a7c8                _free_r
  .text._malloc_r
-                0x0800a744       0xb4 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-mallocr.o)
-                0x0800a744                _malloc_r
+                0x0800a864       0xb4 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-mallocr.o)
+                0x0800a864                _malloc_r
  .text.__ssputs_r
-                0x0800a7f8       0xb4 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-svfprintf.o)
-                0x0800a7f8                __ssputs_r
+                0x0800a918       0xb4 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-svfprintf.o)
+                0x0800a918                __ssputs_r
  .text._svfprintf_r
-                0x0800a8ac      0x1ec c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-svfprintf.o)
-                0x0800a8ac                _svfiprintf_r
-                0x0800a8ac                _svfprintf_r
- .text._sbrk_r  0x0800aa98       0x20 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-sbrkr.o)
-                0x0800aa98                _sbrk_r
- .text.strncmp  0x0800aab8       0x24 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-strncmp.o)
-                0x0800aab8                strncmp
+                0x0800a9cc      0x1ec c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-svfprintf.o)
+                0x0800a9cc                _svfiprintf_r
+                0x0800a9cc                _svfprintf_r
+ .text._sbrk_r  0x0800abb8       0x20 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-sbrkr.o)
+                0x0800abb8                _sbrk_r
+ .text.strncmp  0x0800abd8       0x24 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-strncmp.o)
+                0x0800abd8                strncmp
  .text.__ascii_wctomb
-                0x0800aadc       0x1a c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-wctomb_r.o)
-                0x0800aadc                __ascii_wctomb
- .text.memmove  0x0800aaf6       0x32 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-memmove.o)
-                0x0800aaf6                memmove
+                0x0800abfc       0x1a c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-wctomb_r.o)
+                0x0800abfc                __ascii_wctomb
+ .text.memmove  0x0800ac16       0x32 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-memmove.o)
+                0x0800ac16                memmove
  .text.__malloc_lock
-                0x0800ab28        0x2 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mlock.o)
-                0x0800ab28                __malloc_lock
+                0x0800ac48        0x2 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mlock.o)
+                0x0800ac48                __malloc_lock
  .text.__malloc_unlock
-                0x0800ab2a        0x2 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mlock.o)
-                0x0800ab2a                __malloc_unlock
+                0x0800ac4a        0x2 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mlock.o)
+                0x0800ac4a                __malloc_unlock
  .text._realloc_r
-                0x0800ab2c       0x4c c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-reallocr.o)
-                0x0800ab2c                _realloc_r
+                0x0800ac4c       0x4c c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-reallocr.o)
+                0x0800ac4c                _realloc_r
  .text._malloc_usable_size_r
-                0x0800ab78       0x10 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-msizer.o)
-                0x0800ab78                _malloc_usable_size_r
- .text.cosf     0x0800ab88       0x90 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-sf_cos.o)
-                0x0800ab88                cosf
- .text.sinf     0x0800ac18       0x94 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-sf_sin.o)
-                0x0800ac18                sinf
- .text.atan2f   0x0800acac        0x4 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-wf_atan2.o)
-                0x0800acac                atan2f
- .text.fmodf    0x0800acb0       0xc0 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-wf_fmod.o)
-                0x0800acb0                fmodf
- .text.sqrtf    0x0800ad70       0xac c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-wf_sqrt.o)
-                0x0800ad70                sqrtf
+                0x0800ac98       0x10 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-msizer.o)
+                0x0800ac98                _malloc_usable_size_r
+ .text.cosf     0x0800aca8       0x90 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-sf_cos.o)
+                0x0800aca8                cosf
+ .text.sinf     0x0800ad38       0x94 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-sf_sin.o)
+                0x0800ad38                sinf
+ .text.atan2f   0x0800adcc        0x4 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-wf_atan2.o)
+                0x0800adcc                atan2f
+ .text.fmodf    0x0800add0       0xc0 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-wf_fmod.o)
+                0x0800add0                fmodf
+ .text.sqrtf    0x0800ae90       0xac c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-wf_sqrt.o)
+                0x0800ae90                sqrtf
  .text.__ieee754_atan2f
-                0x0800ae1c      0x17c c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-ef_atan2.o)
-                0x0800ae1c                __ieee754_atan2f
+                0x0800af3c      0x17c c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-ef_atan2.o)
+                0x0800af3c                __ieee754_atan2f
  .text.__ieee754_fmodf
-                0x0800af98      0x12c c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-ef_fmod.o)
-                0x0800af98                __ieee754_fmodf
+                0x0800b0b8      0x12c c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-ef_fmod.o)
+                0x0800b0b8                __ieee754_fmodf
  .text.__ieee754_rem_pio2f
-                0x0800b0c4      0x298 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-ef_rem_pio2.o)
-                0x0800b0c4                __ieee754_rem_pio2f
+                0x0800b1e4      0x298 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-ef_rem_pio2.o)
+                0x0800b1e4                __ieee754_rem_pio2f
  .text.__ieee754_sqrtf
-                0x0800b35c        0x8 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-ef_sqrt.o)
-                0x0800b35c                __ieee754_sqrtf
+                0x0800b47c        0x8 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-ef_sqrt.o)
+                0x0800b47c                __ieee754_sqrtf
  .text.__kernel_cosf
-                0x0800b364      0x104 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-kf_cos.o)
-                0x0800b364                __kernel_cosf
+                0x0800b484      0x104 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-kf_cos.o)
+                0x0800b484                __kernel_cosf
  .text.__kernel_rem_pio2f
-                0x0800b468      0x650 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-kf_rem_pio2.o)
-                0x0800b468                __kernel_rem_pio2f
+                0x0800b588      0x650 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-kf_rem_pio2.o)
+                0x0800b588                __kernel_rem_pio2f
  .text.__kernel_sinf
-                0x0800bab8       0x90 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-kf_sin.o)
-                0x0800bab8                __kernel_sinf
- .text.matherr  0x0800bb48        0x4 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_matherr.o)
-                0x0800bb48                matherr
- .text.atanf    0x0800bb4c      0x1a4 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-sf_atan.o)
-                0x0800bb4c                atanf
- .text.fabsf    0x0800bcf0       0x10 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-sf_fabs.o)
-                0x0800bcf0                fabsf
- .text.floorf   0x0800bd00       0x8c c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-sf_floor.o)
-                0x0800bd00                floorf
- .text.scalbnf  0x0800bd8c       0xd0 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-sf_scalbn.o)
-                0x0800bd8c                scalbnf
+                0x0800bbd8       0x90 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-kf_sin.o)
+                0x0800bbd8                __kernel_sinf
+ .text.matherr  0x0800bc68        0x4 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-s_matherr.o)
+                0x0800bc68                matherr
+ .text.atanf    0x0800bc6c      0x1a4 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-sf_atan.o)
+                0x0800bc6c                atanf
+ .text.fabsf    0x0800be10       0x10 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-sf_fabs.o)
+                0x0800be10                fabsf
+ .text.floorf   0x0800be20       0x8c c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-sf_floor.o)
+                0x0800be20                floorf
+ .text.scalbnf  0x0800beac       0xd0 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-sf_scalbn.o)
+                0x0800beac                scalbnf
  .text.copysignf
-                0x0800be5c       0x18 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-sf_copysign.o)
-                0x0800be5c                copysignf
+                0x0800bf7c       0x18 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-sf_copysign.o)
+                0x0800bf7c                copysignf
  .text.Reset_Handler
-                0x0800be74       0x50 .pio\build\nucleo_g474re\libFrameworkCMSISDevice.a(startup_stm32g474xx.o)
-                0x0800be74                Reset_Handler
+                0x0800bf94       0x50 .pio\build\nucleo_g474re\libFrameworkCMSISDevice.a(startup_stm32g474xx.o)
+                0x0800bf94                Reset_Handler
  .text.Default_Handler
-                0x0800bec4        0x2 .pio\build\nucleo_g474re\libFrameworkCMSISDevice.a(startup_stm32g474xx.o)
-                0x0800bec4                RTC_Alarm_IRQHandler
-                0x0800bec4                EXTI2_IRQHandler
-                0x0800bec4                TIM8_TRG_COM_IRQHandler
-                0x0800bec4                TIM8_CC_IRQHandler
-                0x0800bec4                HRTIM1_Master_IRQHandler
-                0x0800bec4                SPI4_IRQHandler
-                0x0800bec4                FDCAN3_IT0_IRQHandler
-                0x0800bec4                TIM1_CC_IRQHandler
-                0x0800bec4                HRTIM1_FLT_IRQHandler
-                0x0800bec4                HRTIM1_TIMF_IRQHandler
-                0x0800bec4                USB_HP_IRQHandler
-                0x0800bec4                CORDIC_IRQHandler
-                0x0800bec4                HRTIM1_TIMD_IRQHandler
-                0x0800bec4                DMA2_Channel8_IRQHandler
-                0x0800bec4                EXTI3_IRQHandler
-                0x0800bec4                I2C3_ER_IRQHandler
-                0x0800bec4                EXTI0_IRQHandler
-                0x0800bec4                I2C2_EV_IRQHandler
-                0x0800bec4                FPU_IRQHandler
-                0x0800bec4                FDCAN1_IT1_IRQHandler
-                0x0800bec4                TIM1_UP_TIM16_IRQHandler
-                0x0800bec4                HRTIM1_TIME_IRQHandler
-                0x0800bec4                SPI1_IRQHandler
-                0x0800bec4                TIM6_DAC_IRQHandler
-                0x0800bec4                HRTIM1_TIMC_IRQHandler
-                0x0800bec4                TIM8_UP_IRQHandler
-                0x0800bec4                DMA2_Channel2_IRQHandler
-                0x0800bec4                DMA1_Channel4_IRQHandler
-                0x0800bec4                TIM20_TRG_COM_IRQHandler
-                0x0800bec4                USART3_IRQHandler
-                0x0800bec4                DMA1_Channel7_IRQHandler
-                0x0800bec4                UART5_IRQHandler
-                0x0800bec4                ADC3_IRQHandler
-                0x0800bec4                TIM4_IRQHandler
-                0x0800bec4                DMA2_Channel1_IRQHandler
-                0x0800bec4                QUADSPI_IRQHandler
-                0x0800bec4                I2C1_EV_IRQHandler
-                0x0800bec4                DMA1_Channel6_IRQHandler
-                0x0800bec4                UART4_IRQHandler
-                0x0800bec4                DMA2_Channel4_IRQHandler
-                0x0800bec4                RCC_IRQHandler
-                0x0800bec4                TIM20_UP_IRQHandler
-                0x0800bec4                Default_Handler
-                0x0800bec4                DMA2_Channel7_IRQHandler
-                0x0800bec4                RTC_TAMP_LSECSS_IRQHandler
-                0x0800bec4                FMAC_IRQHandler
-                0x0800bec4                DMA1_Channel8_IRQHandler
-                0x0800bec4                HRTIM1_TIMA_IRQHandler
-                0x0800bec4                TIM7_DAC_IRQHandler
-                0x0800bec4                FDCAN3_IT1_IRQHandler
-                0x0800bec4                TIM5_IRQHandler
-                0x0800bec4                UCPD1_IRQHandler
-                0x0800bec4                I2C3_EV_IRQHandler
-                0x0800bec4                EXTI9_5_IRQHandler
-                0x0800bec4                RTC_WKUP_IRQHandler
-                0x0800bec4                PVD_PVM_IRQHandler
-                0x0800bec4                SPI2_IRQHandler
-                0x0800bec4                ADC5_IRQHandler
-                0x0800bec4                DMA2_Channel5_IRQHandler
-                0x0800bec4                CRS_IRQHandler
-                0x0800bec4                DMA1_Channel5_IRQHandler
-                0x0800bec4                USB_LP_IRQHandler
-                0x0800bec4                EXTI4_IRQHandler
-                0x0800bec4                RNG_IRQHandler
-                0x0800bec4                HRTIM1_TIMB_IRQHandler
-                0x0800bec4                TIM1_TRG_COM_TIM17_IRQHandler
-                0x0800bec4                FDCAN2_IT1_IRQHandler
-                0x0800bec4                DMA1_Channel3_IRQHandler
-                0x0800bec4                ADC4_IRQHandler
-                0x0800bec4                WWDG_IRQHandler
-                0x0800bec4                I2C4_EV_IRQHandler
-                0x0800bec4                FDCAN2_IT0_IRQHandler
-                0x0800bec4                LPUART1_IRQHandler
-                0x0800bec4                DMA2_Channel6_IRQHandler
-                0x0800bec4                FDCAN1_IT0_IRQHandler
-                0x0800bec4                TIM2_IRQHandler
-                0x0800bec4                COMP7_IRQHandler
-                0x0800bec4                COMP1_2_3_IRQHandler
-                0x0800bec4                EXTI1_IRQHandler
-                0x0800bec4                USART2_IRQHandler
-                0x0800bec4                COMP4_5_6_IRQHandler
-                0x0800bec4                TIM20_BRK_IRQHandler
-                0x0800bec4                I2C2_ER_IRQHandler
-                0x0800bec4                TIM8_BRK_IRQHandler
-                0x0800bec4                FLASH_IRQHandler
-                0x0800bec4                TIM20_CC_IRQHandler
-                0x0800bec4                USART1_IRQHandler
-                0x0800bec4                SPI3_IRQHandler
-                0x0800bec4                I2C1_ER_IRQHandler
-                0x0800bec4                FMC_IRQHandler
-                0x0800bec4                LPTIM1_IRQHandler
-                0x0800bec4                DMAMUX_OVR_IRQHandler
-                0x0800bec4                I2C4_ER_IRQHandler
-                0x0800bec4                USBWakeUp_IRQHandler
-                0x0800bec4                SAI1_IRQHandler
-                0x0800bec4                DMA2_Channel3_IRQHandler
-                0x0800bec4                TIM1_BRK_TIM15_IRQHandler
+                0x0800bfe4        0x2 .pio\build\nucleo_g474re\libFrameworkCMSISDevice.a(startup_stm32g474xx.o)
+                0x0800bfe4                RTC_Alarm_IRQHandler
+                0x0800bfe4                EXTI2_IRQHandler
+                0x0800bfe4                TIM8_TRG_COM_IRQHandler
+                0x0800bfe4                TIM8_CC_IRQHandler
+                0x0800bfe4                HRTIM1_Master_IRQHandler
+                0x0800bfe4                SPI4_IRQHandler
+                0x0800bfe4                FDCAN3_IT0_IRQHandler
+                0x0800bfe4                TIM1_CC_IRQHandler
+                0x0800bfe4                HRTIM1_FLT_IRQHandler
+                0x0800bfe4                HRTIM1_TIMF_IRQHandler
+                0x0800bfe4                USB_HP_IRQHandler
+                0x0800bfe4                CORDIC_IRQHandler
+                0x0800bfe4                HRTIM1_TIMD_IRQHandler
+                0x0800bfe4                DMA2_Channel8_IRQHandler
+                0x0800bfe4                EXTI3_IRQHandler
+                0x0800bfe4                I2C3_ER_IRQHandler
+                0x0800bfe4                EXTI0_IRQHandler
+                0x0800bfe4                I2C2_EV_IRQHandler
+                0x0800bfe4                FPU_IRQHandler
+                0x0800bfe4                FDCAN1_IT1_IRQHandler
+                0x0800bfe4                TIM1_UP_TIM16_IRQHandler
+                0x0800bfe4                HRTIM1_TIME_IRQHandler
+                0x0800bfe4                SPI1_IRQHandler
+                0x0800bfe4                TIM6_DAC_IRQHandler
+                0x0800bfe4                HRTIM1_TIMC_IRQHandler
+                0x0800bfe4                TIM8_UP_IRQHandler
+                0x0800bfe4                DMA2_Channel2_IRQHandler
+                0x0800bfe4                DMA1_Channel4_IRQHandler
+                0x0800bfe4                TIM20_TRG_COM_IRQHandler
+                0x0800bfe4                USART3_IRQHandler
+                0x0800bfe4                DMA1_Channel7_IRQHandler
+                0x0800bfe4                UART5_IRQHandler
+                0x0800bfe4                ADC3_IRQHandler
+                0x0800bfe4                TIM4_IRQHandler
+                0x0800bfe4                DMA2_Channel1_IRQHandler
+                0x0800bfe4                QUADSPI_IRQHandler
+                0x0800bfe4                I2C1_EV_IRQHandler
+                0x0800bfe4                DMA1_Channel6_IRQHandler
+                0x0800bfe4                UART4_IRQHandler
+                0x0800bfe4                DMA2_Channel4_IRQHandler
+                0x0800bfe4                RCC_IRQHandler
+                0x0800bfe4                TIM20_UP_IRQHandler
+                0x0800bfe4                Default_Handler
+                0x0800bfe4                DMA2_Channel7_IRQHandler
+                0x0800bfe4                RTC_TAMP_LSECSS_IRQHandler
+                0x0800bfe4                FMAC_IRQHandler
+                0x0800bfe4                DMA1_Channel8_IRQHandler
+                0x0800bfe4                HRTIM1_TIMA_IRQHandler
+                0x0800bfe4                TIM7_DAC_IRQHandler
+                0x0800bfe4                FDCAN3_IT1_IRQHandler
+                0x0800bfe4                TIM5_IRQHandler
+                0x0800bfe4                UCPD1_IRQHandler
+                0x0800bfe4                I2C3_EV_IRQHandler
+                0x0800bfe4                EXTI9_5_IRQHandler
+                0x0800bfe4                RTC_WKUP_IRQHandler
+                0x0800bfe4                PVD_PVM_IRQHandler
+                0x0800bfe4                SPI2_IRQHandler
+                0x0800bfe4                ADC5_IRQHandler
+                0x0800bfe4                DMA2_Channel5_IRQHandler
+                0x0800bfe4                CRS_IRQHandler
+                0x0800bfe4                DMA1_Channel5_IRQHandler
+                0x0800bfe4                USB_LP_IRQHandler
+                0x0800bfe4                EXTI4_IRQHandler
+                0x0800bfe4                RNG_IRQHandler
+                0x0800bfe4                HRTIM1_TIMB_IRQHandler
+                0x0800bfe4                TIM1_TRG_COM_TIM17_IRQHandler
+                0x0800bfe4                FDCAN2_IT1_IRQHandler
+                0x0800bfe4                DMA1_Channel3_IRQHandler
+                0x0800bfe4                ADC4_IRQHandler
+                0x0800bfe4                WWDG_IRQHandler
+                0x0800bfe4                I2C4_EV_IRQHandler
+                0x0800bfe4                FDCAN2_IT0_IRQHandler
+                0x0800bfe4                LPUART1_IRQHandler
+                0x0800bfe4                DMA2_Channel6_IRQHandler
+                0x0800bfe4                FDCAN1_IT0_IRQHandler
+                0x0800bfe4                TIM2_IRQHandler
+                0x0800bfe4                COMP7_IRQHandler
+                0x0800bfe4                COMP1_2_3_IRQHandler
+                0x0800bfe4                EXTI1_IRQHandler
+                0x0800bfe4                USART2_IRQHandler
+                0x0800bfe4                COMP4_5_6_IRQHandler
+                0x0800bfe4                TIM20_BRK_IRQHandler
+                0x0800bfe4                I2C2_ER_IRQHandler
+                0x0800bfe4                TIM8_BRK_IRQHandler
+                0x0800bfe4                FLASH_IRQHandler
+                0x0800bfe4                TIM20_CC_IRQHandler
+                0x0800bfe4                USART1_IRQHandler
+                0x0800bfe4                SPI3_IRQHandler
+                0x0800bfe4                I2C1_ER_IRQHandler
+                0x0800bfe4                FMC_IRQHandler
+                0x0800bfe4                LPTIM1_IRQHandler
+                0x0800bfe4                DMAMUX_OVR_IRQHandler
+                0x0800bfe4                I2C4_ER_IRQHandler
+                0x0800bfe4                USBWakeUp_IRQHandler
+                0x0800bfe4                SAI1_IRQHandler
+                0x0800bfe4                DMA2_Channel3_IRQHandler
+                0x0800bfe4                TIM1_BRK_TIM15_IRQHandler
  *(.glue_7)
- .glue_7        0x0800bec6        0x0 linker stubs
+ .glue_7        0x0800bfe6        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x0800bec6        0x0 linker stubs
+ .glue_7t       0x0800bfe6        0x0 linker stubs
  *(.eh_frame)
- *fill*         0x0800bec6        0x2 
- .eh_frame      0x0800bec8        0x0 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+ *fill*         0x0800bfe6        0x2 
+ .eh_frame      0x0800bfe8        0x0 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
  *(.init)
- .init          0x0800bec8        0x4 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crti.o
-                0x0800bec8                _init
- .init          0x0800becc        0x8 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
+ .init          0x0800bfe8        0x4 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crti.o
+                0x0800bfe8                _init
+ .init          0x0800bfec        0x8 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
  *(.fini)
- .fini          0x0800bed4        0x4 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crti.o
-                0x0800bed4                _fini
- .fini          0x0800bed8        0x8 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
-                0x0800bee0                . = ALIGN (0x4)
-                0x0800bee0                _etext = .
+ .fini          0x0800bff4        0x4 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crti.o
+                0x0800bff4                _fini
+ .fini          0x0800bff8        0x8 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
+                0x0800c000                . = ALIGN (0x4)
+                0x0800c000                _etext = .
 
-.vfp11_veneer   0x0800bee0        0x0
- .vfp11_veneer  0x0800bee0        0x0 linker stubs
+.vfp11_veneer   0x0800c000        0x0
+ .vfp11_veneer  0x0800c000        0x0 linker stubs
 
-.v4_bx          0x0800bee0        0x0
- .v4_bx         0x0800bee0        0x0 linker stubs
+.v4_bx          0x0800c000        0x0
+ .v4_bx         0x0800c000        0x0 linker stubs
 
-.iplt           0x0800bee0        0x0
- .iplt          0x0800bee0        0x0 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+.iplt           0x0800c000        0x0
+ .iplt          0x0800c000        0x0 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
 
-.rodata         0x0800bee0      0x700
-                0x0800bee0                . = ALIGN (0x4)
+.rodata         0x0800c000      0x700
+                0x0800c000                . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
  .rodata.UARTPrescTable
-                0x0800bee0       0x18 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_uart.o
-                0x0800bee0                UARTPrescTable
+                0x0800c000       0x18 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_uart.o
+                0x0800c000                UARTPrescTable
  .rodata.denominator.13479
-                0x0800bef8        0x8 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_uart_ex.o
+                0x0800c018        0x8 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_uart_ex.o
  .rodata.numerator.13478
-                0x0800bf00        0x8 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_uart_ex.o
+                0x0800c020        0x8 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_uart_ex.o
  .rodata.AHBPrescTable
-                0x0800bf08       0x10 .pio\build\nucleo_g474re\src\system_stm32g4xx.o
-                0x0800bf08                AHBPrescTable
+                0x0800c028       0x10 .pio\build\nucleo_g474re\src\system_stm32g4xx.o
+                0x0800c028                AHBPrescTable
  .rodata.APBPrescTable
-                0x0800bf18        0x8 .pio\build\nucleo_g474re\src\system_stm32g4xx.o
-                0x0800bf18                APBPrescTable
+                0x0800c038        0x8 .pio\build\nucleo_g474re\src\system_stm32g4xx.o
+                0x0800c038                APBPrescTable
  .rodata._printf_float.str1.1
-                0x0800bf20       0x12 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-vfprintf_float.o)
+                0x0800c040       0x12 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-vfprintf_float.o)
  .rodata._printf_i.str1.1
-                0x0800bf32       0x22 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0800c052       0x22 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
  .rodata._scanf_float.str1.1
-                0x0800bf54        0x5 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-vfscanf_float.o)
+                0x0800c074        0x5 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-vfscanf_float.o)
  .rodata._strtod_l.str1.1
-                0x0800bf59        0x5 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-strtod.o)
+                0x0800c079        0x5 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-strtod.o)
                                   0xc (size before relaxing)
- *fill*         0x0800bf59        0x3 
+ *fill*         0x0800c079        0x3 
  .rodata.fpi.7431
-                0x0800bf5c       0x14 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-strtod.o)
+                0x0800c07c       0x14 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-strtod.o)
  .rodata.fpinan.7467
-                0x0800bf70       0x14 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-strtod.o)
- *fill*         0x0800bf84        0x4 
+                0x0800c090       0x14 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-strtod.o)
+ *fill*         0x0800c0a4        0x4 
  .rodata.tinytens
-                0x0800bf88       0x28 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-strtod.o)
+                0x0800c0a8       0x28 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-strtod.o)
  .rodata._dtoa_r.str1.1
-                0x0800bfb0        0xd c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-dtoa.o)
+                0x0800c0d0        0xd c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-dtoa.o)
                                   0xf (size before relaxing)
  .rodata._setlocale_r.str1.1
-                0x0800bfbd        0x8 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-locale.o)
+                0x0800c0dd        0x8 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-locale.o)
                                   0x9 (size before relaxing)
  .rodata.str1.1
-                0x0800bfc5        0x2 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-locale.o)
- *fill*         0x0800bfc7        0x1 
+                0x0800c0e5        0x2 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-locale.o)
+ *fill*         0x0800c0e7        0x1 
  .rodata.__mprec_bigtens
-                0x0800bfc8       0x28 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
-                0x0800bfc8                __mprec_bigtens
+                0x0800c0e8       0x28 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
+                0x0800c0e8                __mprec_bigtens
  .rodata.__mprec_tens
-                0x0800bff0       0xc8 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
-                0x0800bff0                __mprec_tens
+                0x0800c110       0xc8 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
+                0x0800c110                __mprec_tens
  .rodata.p05.7359
-                0x0800c0b8        0xc c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
+                0x0800c1d8        0xc c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-mprec.o)
  .rodata._svfprintf_r.str1.1
-                0x0800c0c4       0x11 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-svfprintf.o)
+                0x0800c1e4       0x11 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-nano-svfprintf.o)
  .rodata._ctype_
-                0x0800c0d5      0x101 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-ctype_.o)
-                0x0800c0d5                _ctype_
- *fill*         0x0800c1d6        0x2 
+                0x0800c1f5      0x101 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-ctype_.o)
+                0x0800c1f5                _ctype_
+ *fill*         0x0800c2f6        0x2 
  .rodata.fmodf.str1.4
-                0x0800c1d8        0x6 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-wf_fmod.o)
- *fill*         0x0800c1de        0x2 
+                0x0800c2f8        0x6 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-wf_fmod.o)
+ *fill*         0x0800c2fe        0x2 
  .rodata.sqrtf.str1.4
-                0x0800c1e0        0x8 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-wf_sqrt.o)
+                0x0800c300        0x8 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-wf_sqrt.o)
                                   0x6 (size before relaxing)
- .rodata.Zero   0x0800c1e8        0x8 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-ef_fmod.o)
+ .rodata.Zero   0x0800c308        0x8 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-ef_fmod.o)
  .rodata.npio2_hw
-                0x0800c1f0       0x80 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-ef_rem_pio2.o)
+                0x0800c310       0x80 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-ef_rem_pio2.o)
  .rodata.two_over_pi
-                0x0800c270      0x318 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-ef_rem_pio2.o)
- .rodata.PIo2   0x0800c588       0x2c c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-kf_rem_pio2.o)
+                0x0800c390      0x318 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-ef_rem_pio2.o)
+ .rodata.PIo2   0x0800c6a8       0x2c c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-kf_rem_pio2.o)
  .rodata.init_jk
-                0x0800c5b4        0xc c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-kf_rem_pio2.o)
+                0x0800c6d4        0xc c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-kf_rem_pio2.o)
  .rodata.atanhi
-                0x0800c5c0       0x10 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-sf_atan.o)
+                0x0800c6e0       0x10 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-sf_atan.o)
  .rodata.atanlo
-                0x0800c5d0       0x10 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-sf_atan.o)
-                0x0800c5e0                . = ALIGN (0x4)
+                0x0800c6f0       0x10 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a(lib_a-sf_atan.o)
+                0x0800c700                . = ALIGN (0x4)
 
-.ARM.extab      0x0800c5e0        0x0
-                0x0800c5e0                . = ALIGN (0x4)
+.ARM.extab      0x0800c700        0x0
+                0x0800c700                . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0800c5e0                . = ALIGN (0x4)
+                0x0800c700                . = ALIGN (0x4)
 
-.ARM            0x0800c5e0        0x8
-                0x0800c5e0                . = ALIGN (0x4)
-                0x0800c5e0                __exidx_start = .
+.ARM            0x0800c700        0x8
+                0x0800c700                . = ALIGN (0x4)
+                0x0800c700                __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x0800c5e0        0x8 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_udivmoddi4.o)
-                0x0800c5e8                __exidx_end = .
-                0x0800c5e8                . = ALIGN (0x4)
+ .ARM.exidx     0x0800c700        0x8 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_udivmoddi4.o)
+                0x0800c708                __exidx_end = .
+                0x0800c708                . = ALIGN (0x4)
 
-.rel.dyn        0x0800c5e8        0x0
- .rel.iplt      0x0800c5e8        0x0 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+.rel.dyn        0x0800c708        0x0
+ .rel.iplt      0x0800c708        0x0 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
 
-.preinit_array  0x0800c5e8        0x0
-                0x0800c5e8                . = ALIGN (0x4)
-                0x0800c5e8                PROVIDE (__preinit_array_start, .)
+.preinit_array  0x0800c708        0x0
+                0x0800c708                . = ALIGN (0x4)
+                0x0800c708                PROVIDE (__preinit_array_start, .)
  *(.preinit_array*)
-                0x0800c5e8                PROVIDE (__preinit_array_end, .)
-                0x0800c5e8                . = ALIGN (0x4)
+                0x0800c708                PROVIDE (__preinit_array_end, .)
+                0x0800c708                . = ALIGN (0x4)
 
-.init_array     0x0800c5e8        0x4
-                0x0800c5e8                . = ALIGN (0x4)
-                0x0800c5e8                PROVIDE (__init_array_start, .)
+.init_array     0x0800c708        0x4
+                0x0800c708                . = ALIGN (0x4)
+                0x0800c708                PROVIDE (__init_array_start, .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x0800c5e8        0x4 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
-                0x0800c5ec                PROVIDE (__init_array_end, .)
-                0x0800c5ec                . = ALIGN (0x4)
+ .init_array    0x0800c708        0x4 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+                0x0800c70c                PROVIDE (__init_array_end, .)
+                0x0800c70c                . = ALIGN (0x4)
 
-.fini_array     0x0800c5ec        0x4
-                0x0800c5ec                . = ALIGN (0x4)
+.fini_array     0x0800c70c        0x4
+                0x0800c70c                . = ALIGN (0x4)
                 [!provide]                PROVIDE (__fini_array_start, .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x0800c5ec        0x4 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+ .fini_array    0x0800c70c        0x4 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
                 [!provide]                PROVIDE (__fini_array_end, .)
-                0x0800c5f0                . = ALIGN (0x4)
-                0x0800c5f0                _sidata = LOADADDR (.data)
+                0x0800c710                . = ALIGN (0x4)
+                0x0800c710                _sidata = LOADADDR (.data)
 
-.data           0x20000000      0x1e0 load address 0x0800c5f0
+.data           0x20000000      0x1e0 load address 0x0800c710
                 0x20000000                . = ALIGN (0x4)
                 0x20000000                _sdata = .
  *(.data)
@@ -5703,11 +5703,11 @@ LOAD c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/
  *fill*         0x200001dd        0x3 
                 0x200001e0                _edata = .
 
-.igot.plt       0x200001e0        0x0 load address 0x0800c7d0
+.igot.plt       0x200001e0        0x0 load address 0x0800c8f0
  .igot.plt      0x200001e0        0x0 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
                 0x200001e0                . = ALIGN (0x4)
 
-.bss            0x200001e0      0x3fc load address 0x0800c7d0
+.bss            0x200001e0      0x3fc load address 0x0800c8f0
                 0x200001e0                _sbss = .
                 0x200001e0                __bss_start__ = _sbss
  *(.bss)
@@ -5810,7 +5810,7 @@ LOAD c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/
                 0x200005dc                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x200005dc      0x604 load address 0x0800c7d0
+                0x200005dc      0x604 load address 0x0800c8f0
                 0x200005e0                . = ALIGN (0x8)
  *fill*         0x200005dc        0x4 
                 [!provide]                PROVIDE (end, .)
@@ -6029,7 +6029,7 @@ LOAD c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/
                 0x0000138f       0x22 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
 OUTPUT(.pio\build\nucleo_g474re\firmware.elf elf32-littlearm)
 
-.debug_info     0x00000000    0x24ba5
+.debug_info     0x00000000    0x24c59
  .debug_info    0x00000000      0xd60 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal.o
  .debug_info    0x00000d60     0x30ae .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_adc.o
  .debug_info    0x00003e0e     0x2a9e .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_adc_ex.o
@@ -6049,21 +6049,21 @@ OUTPUT(.pio\build\nucleo_g474re\firmware.elf elf32-littlearm)
  .debug_info    0x00016698      0x51d .pio\build\nucleo_g474re\src\GlogalVariables.o
  .debug_info    0x00016bb5     0x1434 .pio\build\nucleo_g474re\src\SignalReadWrite.o
  .debug_info    0x00017fe9      0xa18 .pio\build\nucleo_g474re\src\SixsStep.o
- .debug_info    0x00018a01     0x154d .pio\build\nucleo_g474re\src\VectorControl.o
- .debug_info    0x00019f4e     0x16b9 .pio\build\nucleo_g474re\src\adc.o
- .debug_info    0x0001b607      0xdbb .pio\build\nucleo_g474re\src\dac.o
- .debug_info    0x0001c3c2      0x813 .pio\build\nucleo_g474re\src\dma.o
- .debug_info    0x0001cbd5      0x9ed .pio\build\nucleo_g474re\src\gpio.o
- .debug_info    0x0001d5c2     0x1c1e .pio\build\nucleo_g474re\src\main.o
- .debug_info    0x0001f1e0      0x512 .pio\build\nucleo_g474re\src\stm32g4xx_hal_msp.o
- .debug_info    0x0001f6f2     0x1b5c .pio\build\nucleo_g474re\src\stm32g4xx_it.o
- .debug_info    0x0002124e      0x9a1 .pio\build\nucleo_g474re\src\sysmem.o
- .debug_info    0x00021bef      0x6ec .pio\build\nucleo_g474re\src\system_stm32g4xx.o
- .debug_info    0x000222db     0x1968 .pio\build\nucleo_g474re\src\tim.o
- .debug_info    0x00023c43      0xf40 .pio\build\nucleo_g474re\src\usart.o
- .debug_info    0x00024b83       0x22 .pio\build\nucleo_g474re\libFrameworkCMSISDevice.a(startup_stm32g474xx.o)
+ .debug_info    0x00018a01     0x15b0 .pio\build\nucleo_g474re\src\VectorControl.o
+ .debug_info    0x00019fb1     0x16b9 .pio\build\nucleo_g474re\src\adc.o
+ .debug_info    0x0001b66a      0xdbb .pio\build\nucleo_g474re\src\dac.o
+ .debug_info    0x0001c425      0x813 .pio\build\nucleo_g474re\src\dma.o
+ .debug_info    0x0001cc38      0x9ed .pio\build\nucleo_g474re\src\gpio.o
+ .debug_info    0x0001d625     0x1c1e .pio\build\nucleo_g474re\src\main.o
+ .debug_info    0x0001f243      0x512 .pio\build\nucleo_g474re\src\stm32g4xx_hal_msp.o
+ .debug_info    0x0001f755     0x1b5c .pio\build\nucleo_g474re\src\stm32g4xx_it.o
+ .debug_info    0x000212b1      0x9a1 .pio\build\nucleo_g474re\src\sysmem.o
+ .debug_info    0x00021c52      0x6ec .pio\build\nucleo_g474re\src\system_stm32g4xx.o
+ .debug_info    0x0002233e     0x19b9 .pio\build\nucleo_g474re\src\tim.o
+ .debug_info    0x00023cf7      0xf40 .pio\build\nucleo_g474re\src\usart.o
+ .debug_info    0x00024c37       0x22 .pio\build\nucleo_g474re\libFrameworkCMSISDevice.a(startup_stm32g474xx.o)
 
-.debug_abbrev   0x00000000     0x4161
+.debug_abbrev   0x00000000     0x4188
  .debug_abbrev  0x00000000      0x206 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal.o
  .debug_abbrev  0x00000206      0x29a .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_adc.o
  .debug_abbrev  0x000004a0      0x307 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_adc_ex.o
@@ -6083,21 +6083,21 @@ OUTPUT(.pio\build\nucleo_g474re\firmware.elf elf32-littlearm)
  .debug_abbrev  0x000023d9       0xb8 .pio\build\nucleo_g474re\src\GlogalVariables.o
  .debug_abbrev  0x00002491      0x2da .pio\build\nucleo_g474re\src\SignalReadWrite.o
  .debug_abbrev  0x0000276b      0x1f5 .pio\build\nucleo_g474re\src\SixsStep.o
- .debug_abbrev  0x00002960      0x30e .pio\build\nucleo_g474re\src\VectorControl.o
- .debug_abbrev  0x00002c6e      0x1f3 .pio\build\nucleo_g474re\src\adc.o
- .debug_abbrev  0x00002e61      0x1df .pio\build\nucleo_g474re\src\dac.o
- .debug_abbrev  0x00003040      0x159 .pio\build\nucleo_g474re\src\dma.o
- .debug_abbrev  0x00003199      0x168 .pio\build\nucleo_g474re\src\gpio.o
- .debug_abbrev  0x00003301      0x298 .pio\build\nucleo_g474re\src\main.o
- .debug_abbrev  0x00003599      0x137 .pio\build\nucleo_g474re\src\stm32g4xx_hal_msp.o
- .debug_abbrev  0x000036d0      0x2ee .pio\build\nucleo_g474re\src\stm32g4xx_it.o
- .debug_abbrev  0x000039be      0x206 .pio\build\nucleo_g474re\src\sysmem.o
- .debug_abbrev  0x00003bc4      0x144 .pio\build\nucleo_g474re\src\system_stm32g4xx.o
- .debug_abbrev  0x00003d08      0x26e .pio\build\nucleo_g474re\src\tim.o
- .debug_abbrev  0x00003f76      0x1d9 .pio\build\nucleo_g474re\src\usart.o
- .debug_abbrev  0x0000414f       0x12 .pio\build\nucleo_g474re\libFrameworkCMSISDevice.a(startup_stm32g474xx.o)
+ .debug_abbrev  0x00002960      0x335 .pio\build\nucleo_g474re\src\VectorControl.o
+ .debug_abbrev  0x00002c95      0x1f3 .pio\build\nucleo_g474re\src\adc.o
+ .debug_abbrev  0x00002e88      0x1df .pio\build\nucleo_g474re\src\dac.o
+ .debug_abbrev  0x00003067      0x159 .pio\build\nucleo_g474re\src\dma.o
+ .debug_abbrev  0x000031c0      0x168 .pio\build\nucleo_g474re\src\gpio.o
+ .debug_abbrev  0x00003328      0x298 .pio\build\nucleo_g474re\src\main.o
+ .debug_abbrev  0x000035c0      0x137 .pio\build\nucleo_g474re\src\stm32g4xx_hal_msp.o
+ .debug_abbrev  0x000036f7      0x2ee .pio\build\nucleo_g474re\src\stm32g4xx_it.o
+ .debug_abbrev  0x000039e5      0x206 .pio\build\nucleo_g474re\src\sysmem.o
+ .debug_abbrev  0x00003beb      0x144 .pio\build\nucleo_g474re\src\system_stm32g4xx.o
+ .debug_abbrev  0x00003d2f      0x26e .pio\build\nucleo_g474re\src\tim.o
+ .debug_abbrev  0x00003f9d      0x1d9 .pio\build\nucleo_g474re\src\usart.o
+ .debug_abbrev  0x00004176       0x12 .pio\build\nucleo_g474re\libFrameworkCMSISDevice.a(startup_stm32g474xx.o)
 
-.debug_loc      0x00000000    0x12b8d
+.debug_loc      0x00000000    0x12d21
  .debug_loc     0x00000000      0x22c .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal.o
  .debug_loc     0x0000022c     0x2063 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_adc.o
  .debug_loc     0x0000228f     0x1e45 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_adc_ex.o
@@ -6116,15 +6116,15 @@ OUTPUT(.pio\build\nucleo_g474re\firmware.elf elf32-littlearm)
  .debug_loc     0x00011530      0x220 .pio\build\nucleo_g474re\src\GeneralFunctions.o
  .debug_loc     0x00011750      0x103 .pio\build\nucleo_g474re\src\SignalReadWrite.o
  .debug_loc     0x00011853      0x78a .pio\build\nucleo_g474re\src\SixsStep.o
- .debug_loc     0x00011fdd      0x7b5 .pio\build\nucleo_g474re\src\VectorControl.o
- .debug_loc     0x00012792       0x4a .pio\build\nucleo_g474re\src\adc.o
- .debug_loc     0x000127dc       0x63 .pio\build\nucleo_g474re\src\dac.o
- .debug_loc     0x0001283f       0x4a .pio\build\nucleo_g474re\src\main.o
- .debug_loc     0x00012889       0x9c .pio\build\nucleo_g474re\src\stm32g4xx_it.o
- .debug_loc     0x00012925       0x58 .pio\build\nucleo_g474re\src\sysmem.o
- .debug_loc     0x0001297d       0x80 .pio\build\nucleo_g474re\src\system_stm32g4xx.o
- .debug_loc     0x000129fd      0x138 .pio\build\nucleo_g474re\src\tim.o
- .debug_loc     0x00012b35       0x58 .pio\build\nucleo_g474re\src\usart.o
+ .debug_loc     0x00011fdd      0x949 .pio\build\nucleo_g474re\src\VectorControl.o
+ .debug_loc     0x00012926       0x4a .pio\build\nucleo_g474re\src\adc.o
+ .debug_loc     0x00012970       0x63 .pio\build\nucleo_g474re\src\dac.o
+ .debug_loc     0x000129d3       0x4a .pio\build\nucleo_g474re\src\main.o
+ .debug_loc     0x00012a1d       0x9c .pio\build\nucleo_g474re\src\stm32g4xx_it.o
+ .debug_loc     0x00012ab9       0x58 .pio\build\nucleo_g474re\src\sysmem.o
+ .debug_loc     0x00012b11       0x80 .pio\build\nucleo_g474re\src\system_stm32g4xx.o
+ .debug_loc     0x00012b91      0x138 .pio\build\nucleo_g474re\src\tim.o
+ .debug_loc     0x00012cc9       0x58 .pio\build\nucleo_g474re\src\usart.o
 
 .debug_aranges  0x00000000     0x14b8
  .debug_aranges
@@ -6192,7 +6192,7 @@ OUTPUT(.pio\build\nucleo_g474re\firmware.elf elf32-littlearm)
  .debug_aranges
                 0x00001490       0x28 .pio\build\nucleo_g474re\libFrameworkCMSISDevice.a(startup_stm32g474xx.o)
 
-.debug_ranges   0x00000000     0x1950
+.debug_ranges   0x00000000     0x1980
  .debug_ranges  0x00000000      0x120 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal.o
  .debug_ranges  0x00000120      0x350 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_adc.o
  .debug_ranges  0x00000470      0x3e0 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_adc_ex.o
@@ -6211,21 +6211,21 @@ OUTPUT(.pio\build\nucleo_g474re\firmware.elf elf32-littlearm)
  .debug_ranges  0x00001620       0x28 .pio\build\nucleo_g474re\src\GeneralFunctions.o
  .debug_ranges  0x00001648       0x50 .pio\build\nucleo_g474re\src\SignalReadWrite.o
  .debug_ranges  0x00001698       0xc8 .pio\build\nucleo_g474re\src\SixsStep.o
- .debug_ranges  0x00001760       0x18 .pio\build\nucleo_g474re\src\VectorControl.o
- .debug_ranges  0x00001778       0x20 .pio\build\nucleo_g474re\src\adc.o
- .debug_ranges  0x00001798       0x20 .pio\build\nucleo_g474re\src\dac.o
- .debug_ranges  0x000017b8       0x10 .pio\build\nucleo_g474re\src\dma.o
- .debug_ranges  0x000017c8       0x10 .pio\build\nucleo_g474re\src\gpio.o
- .debug_ranges  0x000017d8       0x28 .pio\build\nucleo_g474re\src\main.o
- .debug_ranges  0x00001800       0x10 .pio\build\nucleo_g474re\src\stm32g4xx_hal_msp.o
- .debug_ranges  0x00001810       0x78 .pio\build\nucleo_g474re\src\stm32g4xx_it.o
- .debug_ranges  0x00001888       0x10 .pio\build\nucleo_g474re\src\sysmem.o
- .debug_ranges  0x00001898       0x18 .pio\build\nucleo_g474re\src\system_stm32g4xx.o
- .debug_ranges  0x000018b0       0x60 .pio\build\nucleo_g474re\src\tim.o
- .debug_ranges  0x00001910       0x20 .pio\build\nucleo_g474re\src\usart.o
- .debug_ranges  0x00001930       0x20 .pio\build\nucleo_g474re\libFrameworkCMSISDevice.a(startup_stm32g474xx.o)
+ .debug_ranges  0x00001760       0x48 .pio\build\nucleo_g474re\src\VectorControl.o
+ .debug_ranges  0x000017a8       0x20 .pio\build\nucleo_g474re\src\adc.o
+ .debug_ranges  0x000017c8       0x20 .pio\build\nucleo_g474re\src\dac.o
+ .debug_ranges  0x000017e8       0x10 .pio\build\nucleo_g474re\src\dma.o
+ .debug_ranges  0x000017f8       0x10 .pio\build\nucleo_g474re\src\gpio.o
+ .debug_ranges  0x00001808       0x28 .pio\build\nucleo_g474re\src\main.o
+ .debug_ranges  0x00001830       0x10 .pio\build\nucleo_g474re\src\stm32g4xx_hal_msp.o
+ .debug_ranges  0x00001840       0x78 .pio\build\nucleo_g474re\src\stm32g4xx_it.o
+ .debug_ranges  0x000018b8       0x10 .pio\build\nucleo_g474re\src\sysmem.o
+ .debug_ranges  0x000018c8       0x18 .pio\build\nucleo_g474re\src\system_stm32g4xx.o
+ .debug_ranges  0x000018e0       0x60 .pio\build\nucleo_g474re\src\tim.o
+ .debug_ranges  0x00001940       0x20 .pio\build\nucleo_g474re\src\usart.o
+ .debug_ranges  0x00001960       0x20 .pio\build\nucleo_g474re\libFrameworkCMSISDevice.a(startup_stm32g474xx.o)
 
-.debug_line     0x00000000     0xe86b
+.debug_line     0x00000000     0xe89e
  .debug_line    0x00000000      0x5da .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal.o
  .debug_line    0x000005da     0x1197 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_adc.o
  .debug_line    0x00001771     0x1004 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_adc_ex.o
@@ -6245,85 +6245,85 @@ OUTPUT(.pio\build\nucleo_g474re\firmware.elf elf32-littlearm)
  .debug_line    0x0000af02      0x2ce .pio\build\nucleo_g474re\src\GlogalVariables.o
  .debug_line    0x0000b1d0      0x4b1 .pio\build\nucleo_g474re\src\SignalReadWrite.o
  .debug_line    0x0000b681      0x3fa .pio\build\nucleo_g474re\src\SixsStep.o
- .debug_line    0x0000ba7b      0x47c .pio\build\nucleo_g474re\src\VectorControl.o
- .debug_line    0x0000bef7      0x438 .pio\build\nucleo_g474re\src\adc.o
- .debug_line    0x0000c32f      0x399 .pio\build\nucleo_g474re\src\dac.o
- .debug_line    0x0000c6c8      0x2e5 .pio\build\nucleo_g474re\src\dma.o
- .debug_line    0x0000c9ad      0x30f .pio\build\nucleo_g474re\src\gpio.o
- .debug_line    0x0000ccbc      0x4b5 .pio\build\nucleo_g474re\src\main.o
- .debug_line    0x0000d171      0x2f1 .pio\build\nucleo_g474re\src\stm32g4xx_hal_msp.o
- .debug_line    0x0000d462      0x5b7 .pio\build\nucleo_g474re\src\stm32g4xx_it.o
- .debug_line    0x0000da19      0x1d5 .pio\build\nucleo_g474re\src\sysmem.o
- .debug_line    0x0000dbee      0x2fb .pio\build\nucleo_g474re\src\system_stm32g4xx.o
- .debug_line    0x0000dee9      0x4ed .pio\build\nucleo_g474re\src\tim.o
- .debug_line    0x0000e3d6      0x3ad .pio\build\nucleo_g474re\src\usart.o
- .debug_line    0x0000e783       0xe8 .pio\build\nucleo_g474re\libFrameworkCMSISDevice.a(startup_stm32g474xx.o)
+ .debug_line    0x0000ba7b      0x4a0 .pio\build\nucleo_g474re\src\VectorControl.o
+ .debug_line    0x0000bf1b      0x438 .pio\build\nucleo_g474re\src\adc.o
+ .debug_line    0x0000c353      0x399 .pio\build\nucleo_g474re\src\dac.o
+ .debug_line    0x0000c6ec      0x2e5 .pio\build\nucleo_g474re\src\dma.o
+ .debug_line    0x0000c9d1      0x30f .pio\build\nucleo_g474re\src\gpio.o
+ .debug_line    0x0000cce0      0x4b5 .pio\build\nucleo_g474re\src\main.o
+ .debug_line    0x0000d195      0x2f1 .pio\build\nucleo_g474re\src\stm32g4xx_hal_msp.o
+ .debug_line    0x0000d486      0x5b7 .pio\build\nucleo_g474re\src\stm32g4xx_it.o
+ .debug_line    0x0000da3d      0x1d5 .pio\build\nucleo_g474re\src\sysmem.o
+ .debug_line    0x0000dc12      0x2fb .pio\build\nucleo_g474re\src\system_stm32g4xx.o
+ .debug_line    0x0000df0d      0x4fc .pio\build\nucleo_g474re\src\tim.o
+ .debug_line    0x0000e409      0x3ad .pio\build\nucleo_g474re\src\usart.o
+ .debug_line    0x0000e7b6       0xe8 .pio\build\nucleo_g474re\libFrameworkCMSISDevice.a(startup_stm32g474xx.o)
 
-.debug_str      0x00000000     0x7d0c
- .debug_str     0x00000000      0xfa9 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal.o
-                               0x1045 (size before relaxing)
- .debug_str     0x00000fa9      0xf59 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_adc.o
-                               0x1515 (size before relaxing)
- .debug_str     0x00001f02      0x64a .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_adc_ex.o
-                               0x14c4 (size before relaxing)
- .debug_str     0x0000254c      0x4cf .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_cortex.o
-                                0xfa2 (size before relaxing)
- .debug_str     0x00002a1b      0x4c7 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_dac.o
-                                0xbfc (size before relaxing)
- .debug_str     0x00002ee2      0x2e6 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_dma.o
-                                0x9d3 (size before relaxing)
- .debug_str     0x000031c8      0x1fa .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_gpio.o
-                                0x795 (size before relaxing)
- .debug_str     0x000033c2      0x54a .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_pwr_ex.o
-                                0xa29 (size before relaxing)
- .debug_str     0x0000390c      0x3db .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_rcc.o
-                                0xa4f (size before relaxing)
- .debug_str     0x00003ce7      0x58b .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_rcc_ex.o
-                                0xcba (size before relaxing)
- .debug_str     0x00004272     0x12c6 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_tim.o
-                               0x1a76 (size before relaxing)
- .debug_str     0x00005538      0x9c8 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_tim_ex.o
-                               0x16e5 (size before relaxing)
- .debug_str     0x00005f00      0xacc .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_uart.o
-                               0x13c2 (size before relaxing)
- .debug_str     0x000069cc      0x2b6 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_uart_ex.o
-                                0xcf1 (size before relaxing)
- .debug_str     0x00006c82       0x42 .pio\build\nucleo_g474re\src\ControlFunctions.o
-                                0x439 (size before relaxing)
- .debug_str     0x00006cc4      0x5a0 .pio\build\nucleo_g474re\src\GeneralFunctions.o
-                                0x9a9 (size before relaxing)
- .debug_str     0x00007264       0x1b .pio\build\nucleo_g474re\src\GlogalVariables.o
-                                0x4e9 (size before relaxing)
- .debug_str     0x0000727f      0x12e .pio\build\nucleo_g474re\src\SignalReadWrite.o
-                                0xc2c (size before relaxing)
- .debug_str     0x000073ad      0x30b .pio\build\nucleo_g474re\src\SixsStep.o
-                                0x875 (size before relaxing)
- .debug_str     0x000076b8      0x159 .pio\build\nucleo_g474re\src\VectorControl.o
-                                0xab2 (size before relaxing)
- .debug_str     0x00007811       0x55 .pio\build\nucleo_g474re\src\adc.o
-                               0x166c (size before relaxing)
- .debug_str     0x00007866       0x3a .pio\build\nucleo_g474re\src\dac.o
-                                0xbad (size before relaxing)
- .debug_str     0x000078a0       0x1b .pio\build\nucleo_g474re\src\dma.o
-                                0xb7e (size before relaxing)
- .debug_str     0x000078bb       0x1d .pio\build\nucleo_g474re\src\gpio.o
-                                0xc29 (size before relaxing)
- .debug_str     0x000078d8       0xd6 .pio\build\nucleo_g474re\src\main.o
-                               0x1544 (size before relaxing)
- .debug_str     0x000079ae       0x1d .pio\build\nucleo_g474re\src\stm32g4xx_hal_msp.o
-                                0x55d (size before relaxing)
- .debug_str     0x000079cb      0x156 .pio\build\nucleo_g474re\src\stm32g4xx_it.o
-                               0x1490 (size before relaxing)
- .debug_str     0x00007b21       0x91 .pio\build\nucleo_g474re\src\sysmem.o
-                                0x611 (size before relaxing)
- .debug_str     0x00007bb2       0x3d .pio\build\nucleo_g474re\src\system_stm32g4xx.o
-                                0x5b8 (size before relaxing)
- .debug_str     0x00007bef       0x6b .pio\build\nucleo_g474re\src\tim.o
-                               0x1645 (size before relaxing)
- .debug_str     0x00007c5a       0x1c .pio\build\nucleo_g474re\src\usart.o
-                                0xd6d (size before relaxing)
- .debug_str     0x00007c76       0x96 .pio\build\nucleo_g474re\libFrameworkCMSISDevice.a(startup_stm32g474xx.o)
-                                 0xc3 (size before relaxing)
+.debug_str      0x00000000     0x7d1b
+ .debug_str     0x00000000      0xfb8 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal.o
+                               0x1054 (size before relaxing)
+ .debug_str     0x00000fb8      0xf59 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_adc.o
+                               0x1524 (size before relaxing)
+ .debug_str     0x00001f11      0x64a .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_adc_ex.o
+                               0x14d3 (size before relaxing)
+ .debug_str     0x0000255b      0x4cf .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_cortex.o
+                                0xfb1 (size before relaxing)
+ .debug_str     0x00002a2a      0x4c7 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_dac.o
+                                0xc0b (size before relaxing)
+ .debug_str     0x00002ef1      0x2e6 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_dma.o
+                                0x9e2 (size before relaxing)
+ .debug_str     0x000031d7      0x1fa .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_gpio.o
+                                0x7a4 (size before relaxing)
+ .debug_str     0x000033d1      0x54a .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_pwr_ex.o
+                                0xa38 (size before relaxing)
+ .debug_str     0x0000391b      0x3db .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_rcc.o
+                                0xa5e (size before relaxing)
+ .debug_str     0x00003cf6      0x58b .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_rcc_ex.o
+                                0xcc9 (size before relaxing)
+ .debug_str     0x00004281     0x12c6 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_tim.o
+                               0x1a85 (size before relaxing)
+ .debug_str     0x00005547      0x9c8 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_tim_ex.o
+                               0x16f4 (size before relaxing)
+ .debug_str     0x00005f0f      0xacc .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_uart.o
+                               0x13d1 (size before relaxing)
+ .debug_str     0x000069db      0x2b6 .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal_uart_ex.o
+                                0xd00 (size before relaxing)
+ .debug_str     0x00006c91       0x42 .pio\build\nucleo_g474re\src\ControlFunctions.o
+                                0x448 (size before relaxing)
+ .debug_str     0x00006cd3      0x5a0 .pio\build\nucleo_g474re\src\GeneralFunctions.o
+                                0x9b8 (size before relaxing)
+ .debug_str     0x00007273       0x1b .pio\build\nucleo_g474re\src\GlogalVariables.o
+                                0x4f8 (size before relaxing)
+ .debug_str     0x0000728e      0x12e .pio\build\nucleo_g474re\src\SignalReadWrite.o
+                                0xc3b (size before relaxing)
+ .debug_str     0x000073bc      0x30b .pio\build\nucleo_g474re\src\SixsStep.o
+                                0x884 (size before relaxing)
+ .debug_str     0x000076c7      0x159 .pio\build\nucleo_g474re\src\VectorControl.o
+                                0xac1 (size before relaxing)
+ .debug_str     0x00007820       0x55 .pio\build\nucleo_g474re\src\adc.o
+                               0x167b (size before relaxing)
+ .debug_str     0x00007875       0x3a .pio\build\nucleo_g474re\src\dac.o
+                                0xbbc (size before relaxing)
+ .debug_str     0x000078af       0x1b .pio\build\nucleo_g474re\src\dma.o
+                                0xb8d (size before relaxing)
+ .debug_str     0x000078ca       0x1d .pio\build\nucleo_g474re\src\gpio.o
+                                0xc38 (size before relaxing)
+ .debug_str     0x000078e7       0xd6 .pio\build\nucleo_g474re\src\main.o
+                               0x1553 (size before relaxing)
+ .debug_str     0x000079bd       0x1d .pio\build\nucleo_g474re\src\stm32g4xx_hal_msp.o
+                                0x56c (size before relaxing)
+ .debug_str     0x000079da      0x156 .pio\build\nucleo_g474re\src\stm32g4xx_it.o
+                               0x149f (size before relaxing)
+ .debug_str     0x00007b30       0x91 .pio\build\nucleo_g474re\src\sysmem.o
+                                0x620 (size before relaxing)
+ .debug_str     0x00007bc1       0x3d .pio\build\nucleo_g474re\src\system_stm32g4xx.o
+                                0x5c7 (size before relaxing)
+ .debug_str     0x00007bfe       0x6b .pio\build\nucleo_g474re\src\tim.o
+                               0x1654 (size before relaxing)
+ .debug_str     0x00007c69       0x1c .pio\build\nucleo_g474re\src\usart.o
+                                0xd7c (size before relaxing)
+ .debug_str     0x00007c85       0x96 .pio\build\nucleo_g474re\libFrameworkCMSISDevice.a(startup_stm32g474xx.o)
+                                 0xd2 (size before relaxing)
 
 .comment        0x00000000       0x7e
  .comment       0x00000000       0x7e .pio\build\nucleo_g474re\FrameworkHALDriver\Src\stm32g4xx_hal.o
@@ -6378,17 +6378,17 @@ OUTPUT(.pio\build\nucleo_g474re\firmware.elf elf32-littlearm)
  .debug_frame   0x00002e2c       0x60 .pio\build\nucleo_g474re\src\GeneralFunctions.o
  .debug_frame   0x00002e8c       0xd4 .pio\build\nucleo_g474re\src\SignalReadWrite.o
  .debug_frame   0x00002f60       0x7c .pio\build\nucleo_g474re\src\SixsStep.o
- .debug_frame   0x00002fdc       0xb0 .pio\build\nucleo_g474re\src\VectorControl.o
- .debug_frame   0x0000308c       0x74 .pio\build\nucleo_g474re\src\adc.o
- .debug_frame   0x00003100       0x6c .pio\build\nucleo_g474re\src\dac.o
- .debug_frame   0x0000316c       0x2c .pio\build\nucleo_g474re\src\dma.o
- .debug_frame   0x00003198       0x34 .pio\build\nucleo_g474re\src\gpio.o
- .debug_frame   0x000031cc       0x74 .pio\build\nucleo_g474re\src\main.o
- .debug_frame   0x00003240       0x2c .pio\build\nucleo_g474re\src\stm32g4xx_hal_msp.o
- .debug_frame   0x0000326c      0x12c .pio\build\nucleo_g474re\src\stm32g4xx_it.o
- .debug_frame   0x00003398       0x28 .pio\build\nucleo_g474re\src\sysmem.o
- .debug_frame   0x000033c0       0x30 .pio\build\nucleo_g474re\src\system_stm32g4xx.o
- .debug_frame   0x000033f0      0x150 .pio\build\nucleo_g474re\src\tim.o
+ .debug_frame   0x00002fdc       0xac .pio\build\nucleo_g474re\src\VectorControl.o
+ .debug_frame   0x00003088       0x74 .pio\build\nucleo_g474re\src\adc.o
+ .debug_frame   0x000030fc       0x6c .pio\build\nucleo_g474re\src\dac.o
+ .debug_frame   0x00003168       0x2c .pio\build\nucleo_g474re\src\dma.o
+ .debug_frame   0x00003194       0x34 .pio\build\nucleo_g474re\src\gpio.o
+ .debug_frame   0x000031c8       0x74 .pio\build\nucleo_g474re\src\main.o
+ .debug_frame   0x0000323c       0x2c .pio\build\nucleo_g474re\src\stm32g4xx_hal_msp.o
+ .debug_frame   0x00003268      0x12c .pio\build\nucleo_g474re\src\stm32g4xx_it.o
+ .debug_frame   0x00003394       0x28 .pio\build\nucleo_g474re\src\sysmem.o
+ .debug_frame   0x000033bc       0x30 .pio\build\nucleo_g474re\src\system_stm32g4xx.o
+ .debug_frame   0x000033ec      0x154 .pio\build\nucleo_g474re\src\tim.o
  .debug_frame   0x00003540       0x60 .pio\build\nucleo_g474re\src\usart.o
  .debug_frame   0x000035a0       0x20 c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-errno.o)
  .debug_frame   0x000035c0       0x2c c:/users/taisu/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc_nano.a(lib_a-init.o)

@@ -108,7 +108,7 @@ if(htim -> Channel == HAL_TIM_ACTIVE_CHANNEL_2)
     if(IC_Val2 > IC_Val1)
     {
       Difference = IC_Val2-IC_Val1;
-      gPropoDuty = (-0.000165 * Difference) + 3.5277;
+      gPropoDuty = (0.00008 * Difference) - 2.3;
       
     }
 
