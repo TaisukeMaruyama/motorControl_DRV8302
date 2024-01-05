@@ -273,7 +273,7 @@ void ADC1_2_IRQHandler(void)
 
 
 	  Idq_ref[0] = 0.0f; //gVolume * 2;//-0.0f;//gVolume;//0.05f;
-    // Idq_ref[0] = -1.0f * (gPropoDuty * 10); //field weak
+    // Idq_ref[0] = -1.0f * (gPropoDuty * 10); //field weak control
 	  Idq_ref[1] = 10.0f * gPropoDuty;
 	/*// Speed Control
 	ErectFreqRef = 200.0f * gVolume;
