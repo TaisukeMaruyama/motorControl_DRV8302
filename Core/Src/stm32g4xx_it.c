@@ -241,7 +241,7 @@ void ADC1_2_IRQHandler(void)
 {
   /* USER CODE BEGIN ADC1_2_IRQn 0 */
   int8_t rotDir;
-	float ErectFreqRef = 100.0f;
+	float ErectFreqRef = 300.0f;
 	float ErectFreqErr;
 	uint8_t voltageMode_tmp;
 	float theta_tmp;
@@ -272,9 +272,15 @@ void ADC1_2_IRQHandler(void)
 	//  rotDir = -1;
 
 
-	  Idq_ref[0] = 0.0f; //gVolume * 2;//-0.0f;//gVolume;//0.05f;
-    // Idq_ref[0] = -1.0f * (gPropoDuty * 10); //field weak control
-	  Idq_ref[1] = 10.0f * gPropoDuty;
+  if(gElectFreq <= 250.0f){
+    Idq_ref[0] = 0.0f;
+  }else{
+    Idq_ref[0] = -1.0f * (gElectFreq * gPropoDuty * 0.1);
+  }
+
+	  // Idq_ref[0] = 0.0f; //gVolume * 2;//-0.0f;//gVolume;//0.05f;
+    // Idq_ref[0] = -1.0f * (gPropoDuty * 5); //field weak control daxis
+    Idq_ref[1] = 3.0f * gPropoDuty; //qaxis
 	/*// Speed Control
 	ErectFreqRef = 200.0f * gVolume;
 	ErectFreqErr = ErectFreqRef - gElectFreq;
