@@ -108,9 +108,14 @@ if(htim -> Channel == HAL_TIM_ACTIVE_CHANNEL_2)
     if(IC_Val2 > IC_Val1)
     {
       Difference = IC_Val2-IC_Val1;
-      gPropoDuty = (0.00008 * Difference) - 2.3;
-      
+      gPropoDuty = (0.00011 * Difference) - 3.1;
+
+      if(gPropoDuty > -0.06f && gPropoDuty < 0.06f){
+        gPropoDuty = 0;
+      }
     }
+
+
 
     Is_First_Captured = 0;
     __HAL_TIM_SET_CAPTUREPOLARITY(htim,TIM_CHANNEL_2,TIM_INPUTCHANNELPOLARITY_RISING);
